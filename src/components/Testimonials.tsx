@@ -15,7 +15,7 @@ export function Testimonials() {
           viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#1da178]/10 text-[#1da178] text-sm font-medium">
+          <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("testimonials.badge")}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
@@ -58,7 +58,7 @@ export function Testimonials() {
                     {[...Array(5)].map((_, i) => (
                       <Star
                         key={i}
-                        className="h-4 w-4 text-[#1da178] fill-[#1da178]"
+                        className="h-4 w-4 text-[#48b4e8] fill-[#48b4e8]"
                       />
                     ))}
                   </div>

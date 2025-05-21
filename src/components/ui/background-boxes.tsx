@@ -11,7 +11,7 @@ interface BoxesCoreProps {
 export const BoxesCore: React.FC<BoxesCoreProps> = ({ className, ...rest }) => {
   const rows = new Array(150).fill(1)
   const cols = new Array(100).fill(1)
-  const colors = ["#1da178", "#d0d0d0"]
+  const colors = ["#48b4e8", "#d0d0d0"]
   const getRandomColor = () => {
     return colors[Math.floor(Math.random() * colors.length)]
   }

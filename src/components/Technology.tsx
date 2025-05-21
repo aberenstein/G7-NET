@@ -15,7 +15,7 @@ export function Technology() {
           viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#1da178]/10 text-[#1da178] text-sm font-medium">
+          <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("technology.badge")}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
@@ -28,19 +28,19 @@ export function Technology() {
           <TabsList className="w-full grid grid-cols-3 mb-8">
             <TabsTrigger
               value="web"
-              className="data-[state=active]:bg-[#1da178] data-[state=active]:text-white"
+              className="data-[state=active]:bg-[#48b4e8] data-[state=active]:text-white"
             >
               {t("technology.tabs.web")}
             </TabsTrigger>
             <TabsTrigger
               value="mobile"
-              className="data-[state=active]:bg-[#1da178] data-[state=active]:text-white"
+              className="data-[state=active]:bg-[#48b4e8] data-[state=active]:text-white"
             >
               {t("technology.tabs.mobile")}
             </TabsTrigger>
             <TabsTrigger
               value="cloud"
-              className="data-[state=active]:bg-[#1da178] data-[state=active]:text-white"
+              className="data-[state=active]:bg-[#48b4e8] data-[state=active]:text-white"
             >
               {t("technology.tabs.cloud")}
             </TabsTrigger>
@@ -62,8 +62,8 @@ export function Technology() {
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((item) => (
                     <li key={item} className="flex items-center">
-                      <div className="w-6 h-6 rounded-full bg-[#1da178]/20 flex items-center justify-center mr-3">
-                        <Star className="h-3 w-3 text-[#1da178]" />
+                      <div className="w-6 h-6 rounded-full bg-[#48b4e8]/20 flex items-center justify-center mr-3">
+                        <Star className="h-3 w-3 text-[#48b4e8]" />
                       </div>
                       <span className="text-black">
                         {t(`technology.web.item${item}`)}
@@ -73,7 +73,7 @@ export function Technology() {
                 </ul>
               </div>
               <div className="relative">
-                <div className="absolute inset-0 bg-[#1da178]/5 rounded-lg transform rotate-3"></div>
+                <div className="absolute inset-0 bg-[#48b4e8]/5 rounded-lg transform rotate-3"></div>
                 <Image
                   src="/blog-covers/blog-demo-2.png"
                   alt="Web Technologies"
@@ -101,8 +101,8 @@ export function Technology() {
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((item) => (
                     <li key={item} className="flex items-center">
-                      <div className="w-6 h-6 rounded-full bg-[#1da178]/20 flex items-center justify-center mr-3">
-                        <Star className="h-3 w-3 text-[#1da178]" />
+                      <div className="w-6 h-6 rounded-full bg-[#48b4e8]/20 flex items-center justify-center mr-3">
+                        <Star className="h-3 w-3 text-[#48b4e8]" />
                       </div>
                       <span className="text-black">
                         {t(`technology.mobile.item${item}`)}
@@ -112,7 +112,7 @@ export function Technology() {
                 </ul>
               </div>
               <div className="relative">
-                <div className="absolute inset-0 bg-[#1da178]/5 rounded-lg transform -rotate-3"></div>
+                <div className="absolute inset-0 bg-[#48b4e8]/5 rounded-lg transform -rotate-3"></div>
                 <Image
                   src="/mobile-app-development.png"
                   alt="Mobile Technologies"
@@ -140,8 +140,8 @@ export function Technology() {
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((item) => (
                     <li key={item} className="flex items-center">
-                      <div className="w-6 h-6 rounded-full bg-[#1da178]/20 flex items-center justify-center mr-3">
-                        <Star className="h-3 w-3 text-[#1da178]" />
+                      <div className="w-6 h-6 rounded-full bg-[#48b4e8]/20 flex items-center justify-center mr-3">
+                        <Star className="h-3 w-3 text-[#48b4e8]" />
                       </div>
                       <span className="text-black">
                         {t(`technology.cloud.item${item}`)}
@@ -151,7 +151,7 @@ export function Technology() {
                 </ul>
               </div>
               <div className="relative">
-                <div className="absolute inset-0 bg-[#1da178]/5 rounded-lg transform rotate-3"></div>
+                <div className="absolute inset-0 bg-[#48b4e8]/5 rounded-lg transform rotate-3"></div>
                 <Image
                   src="/cloud-computing-technologies.png"
                   alt="Cloud Technologies"

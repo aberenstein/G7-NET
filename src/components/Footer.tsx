@@ -9,6 +9,7 @@ import {
   Instagram,
 } from "lucide-react"
 import { t } from "@/i18n"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -17,8 +18,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <Sparkles className="h-8 w-8 text-[#1da178]" />
-              <span className="text-xl font-bold">{t("companyName")}</span>
+              <Image src="/logo.png" alt="G7NET" width={100} height={100} />
             </div>
             <p className="text-white/70 mb-6">{t("footer.description")}</p>
             <div className="flex space-x-4">
@@ -27,7 +27,7 @@ export function Footer() {
                   <Link
                     key={social}
                     href="#"
-                    className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#1da178] transition-colors"
+                    className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#48b4e8] transition-colors"
                   >
                     <span className="sr-only">{social}</span>
                     {social === "twitter" && <Twitter className="h-4 w-4" />}
@@ -50,7 +50,7 @@ export function Footer() {
                 <li key={index}>
                   <Link
                     href="#"
-                    className="text-white/70 hover:text-[#1da178] transition-colors"
+                    className="text-white/70 hover:text-[#48b4e8] transition-colors"
                   >
                     {t(`footer.quickLinks.link${index}`)}
                   </Link>
@@ -67,7 +67,7 @@ export function Footer() {
                 <li key={index}>
                   <Link
                     href="#"
-                    className="text-white/70 hover:text-[#1da178] transition-colors"
+                    className="text-white/70 hover:text-[#48b4e8] transition-colors"
                   >
                     {t(`footer.services.service${index}`)}
                   </Link>
@@ -81,13 +81,13 @@ export function Footer() {
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <MapPin className="h-5 w-5 text-[#1da178] mr-3 mt-0.5" />
+                <MapPin className="h-5 w-5 text-[#48b4e8] mr-3 mt-0.5" />
                 <span className="text-white/70">
                   {t("footer.contact.address")}
                 </span>
               </li>
               <li className="flex items-start">
-                <MessageSquare className="h-5 w-5 text-[#1da178] mr-3 mt-0.5" />
+                <MessageSquare className="h-5 w-5 text-[#48b4e8] mr-3 mt-0.5" />
                 <span className="text-white/70">
                   {t("footer.contact.email")}
                 </span>
@@ -103,13 +103,13 @@ export function Footer() {
           <div className="flex space-x-6">
             <Link
               href="#"
-              className="text-white/70 text-sm hover:text-[#1da178] transition-colors"
+              className="text-white/70 text-sm hover:text-[#48b4e8] transition-colors"
             >
               {t("footer.privacy")}
             </Link>
             <Link
               href="#"
-              className="text-white/70 text-sm hover:text-[#1da178] transition-colors"
+              className="text-white/70 text-sm hover:text-[#48b4e8] transition-colors"
             >
               {t("footer.terms")}
             </Link>

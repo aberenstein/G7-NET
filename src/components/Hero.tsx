@@ -17,19 +17,19 @@ export function Hero() {
           transition={{ duration: 0.5 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#1da178]/10 text-[#1da178] text-sm font-medium">
+          <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("hero.badge")}
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-black mb-6">
             {t("hero.title.part1")}{" "}
-            <span className="text-[#1da178]">{t("hero.title.highlight")}</span>{" "}
+            <span className="text-[#48b4e8]">{t("hero.title.highlight")}</span>{" "}
             {t("hero.title.part2")}
           </h1>
           <p className="text-lg md:text-xl text-black/80 mb-8 max-w-2xl mx-auto">
             {t("hero.subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button className="bg-[#1da178] hover:bg-[#1da178]/90 text-white px-6 py-2 text-sm">
+            <Button className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white px-6 py-2 text-sm">
               {t("hero.primaryCta")}
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>

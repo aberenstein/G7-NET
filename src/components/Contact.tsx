@@ -23,7 +23,7 @@ export function Contact() {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#1da178]/10 text-[#1da178] text-sm font-medium">
+            <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
               {t("contact.badge")}
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
@@ -34,8 +34,8 @@ export function Contact() {
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
                 <div className="flex-shrink-0 mr-3">
-                  <div className="w-10 h-10 rounded-full bg-[#1da178]/10 flex items-center justify-center">
-                    <MapPin className="h-5 w-5 text-[#1da178]" />
+                  <div className="w-10 h-10 rounded-full bg-[#48b4e8]/10 flex items-center justify-center">
+                    <MapPin className="h-5 w-5 text-[#48b4e8]" />
                   </div>
                 </div>
                 <div>
@@ -47,8 +47,8 @@ export function Contact() {
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0 mr-3">
-                  <div className="w-10 h-10 rounded-full bg-[#1da178]/10 flex items-center justify-center">
-                    <MessageSquare className="h-5 w-5 text-[#1da178]" />
+                  <div className="w-10 h-10 rounded-full bg-[#48b4e8]/10 flex items-center justify-center">
+                    <MessageSquare className="h-5 w-5 text-[#48b4e8]" />
                   </div>
                 </div>
                 <div>
@@ -66,7 +66,7 @@ export function Contact() {
                   <Link
                     key={social}
                     href="#"
-                    className="w-10 h-10 rounded-full bg-[#1da178]/10 flex items-center justify-center hover:bg-[#1da178] hover:text-white transition-colors"
+                    className="w-10 h-10 rounded-full bg-[#48b4e8]/10 flex items-center justify-center hover:bg-[#48b4e8] hover:text-white transition-colors"
                   >
                     <span className="sr-only">{social}</span>
                     {social === "twitter" && <Twitter className="h-5 w-5" />}
@@ -99,7 +99,7 @@ export function Contact() {
                     <input
                       id="name"
                       type="text"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1da178]"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={tString("contact.form.namePlaceholder")}
                     />
                   </div>
@@ -113,7 +113,7 @@ export function Contact() {
                     <input
                       id="email"
                       type="email"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1da178]"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={tString("contact.form.emailPlaceholder")}
                     />
                   </div>
@@ -127,7 +127,7 @@ export function Contact() {
                     <input
                       id="subject"
                       type="text"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1da178]"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={tString("contact.form.subjectPlaceholder")}
                     />
                   </div>
@@ -141,11 +141,11 @@ export function Contact() {
                     <textarea
                       id="message"
                       rows={4}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1da178]"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={tString("contact.form.messagePlaceholder")}
                     />
                   </div>
-                  <Button className="w-full bg-[#1da178] hover:bg-[#1da178]/90 text-white">
+                  <Button className="w-full bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white">
                     {t("contact.form.submit")}
                   </Button>
                 </form>
