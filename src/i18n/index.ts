@@ -31,8 +31,13 @@ export function t(
     return key
   }
 
+  // If translation is not a string, return the key as fallback
+  if (typeof translation !== "string") {
+    return key
+  }
+
   // If no interpolation, return the translation as-is
-  if (typeof translation !== "string" || Object.keys(values).length === 0) {
+  if (Object.keys(values).length === 0) {
     return translation
   }
 
