@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 
 interface BoxesCoreProps {
   className?: string
-  [key: string]: any
+  [key: string]: unknown
 }
 
 export const BoxesCore: React.FC<BoxesCoreProps> = ({ className, ...rest }) => {

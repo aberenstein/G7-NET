@@ -63,7 +63,7 @@ export function Testimonials() {
                     ))}
                   </div>
                   <p className="text-black/80 italic">
-                    "{t(`testimonials.testimonial${index}.quote`)}"
+                    &quot;{t(`testimonials.testimonial${index}.quote`)}&quot;
                   </p>
                 </CardContent>
               </Card>

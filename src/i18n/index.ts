@@ -7,9 +7,11 @@ import React from "react"
 type TranslationKeys = typeof common
 
 // Utility to get nested values from an object using dot notation
-function getNestedValue(obj: any, key: string): any {
+function getNestedValue(obj: unknown, key: string): unknown {
   return key.split(".").reduce((current, part) => {
-    return current && typeof current === "object" ? current[part] : undefined
+    return current && typeof current === "object" && current !== null
+      ? (current as Record<string, unknown>)[part]
+      : undefined
   }, obj)
 }
 
@@ -22,11 +24,11 @@ export function t(
   values: InterpolationValues = {}
 ): React.ReactNode {
   // Get the raw translation string
-  let translation = getNestedValue(common, key) || key
+  const translation = getNestedValue(common, key) || key
 
-  // If translation is an object, return it as-is (for complex JSON)
-  if (typeof translation === "object") {
-    return translation
+  // If translation is an object, return the key as fallback (avoid returning objects)
+  if (typeof translation === "object" && translation !== null) {
+    return key
   }
 
   // If no interpolation, return the translation as-is
@@ -75,7 +77,7 @@ export function tString(
   values: Record<string, string | number> = {}
 ): string {
   // Get the raw translation string
-  let translation = getNestedValue(common, key) || key
+  const translation = getNestedValue(common, key) || key
 
   // If translation is not a string, return the key as fallback
   if (typeof translation !== "string") {
