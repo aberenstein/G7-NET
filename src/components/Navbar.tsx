@@ -3,9 +3,9 @@
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { Locale, useLocale, useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
-import { useParams, usePathname, useRouter } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import {
   Select,
   SelectContent,
@@ -18,7 +18,6 @@ import { routing } from "@/i18n/routing"
 export function Navbar({ scrolled }: { scrolled: boolean }) {
   const router = useRouter()
   const pathname = usePathname()
-  const params = useParams()
   const t = useTranslations("nav")
   const locale = useLocale()
 

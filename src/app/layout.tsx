@@ -1,9 +1,6 @@
 import type { Metadata } from "next"
 import { Work_Sans } from "next/font/google"
 import "./globals.css"
-import { hasLocale } from "next-intl"
-import { notFound } from "next/navigation"
-import { routing } from "@/i18n/routing"
 
 const workSans = Work_Sans({
   subsets: ["latin"],
