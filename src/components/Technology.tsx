@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { motion } from "framer-motion"
 import { Star } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useTranslations } from "next-intl"
@@ -9,13 +8,7 @@ export function Technology() {
   return (
     <section id="technology" className="py-20 md:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-16"
-        >
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("badge")}
           </div>
@@ -23,7 +16,7 @@ export function Technology() {
             {t("title")}
           </h2>
           <p className="text-black/80">{t("description")}</p>
-        </motion.div>
+        </div>
 
         <Tabs defaultValue="web" className="w-full max-w-4xl mx-auto">
           <TabsList className="w-full grid grid-cols-3 mb-8">
@@ -47,12 +40,7 @@ export function Technology() {
             </TabsTrigger>
           </TabsList>
           <TabsContent value="web" className="mt-0">
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="grid md:grid-cols-2 gap-8 items-center"
-            >
+            <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">
                   {t("web.title")}
@@ -79,15 +67,10 @@ export function Technology() {
                   className="relative z-10 rounded-lg shadow-lg"
                 />
               </div>
-            </motion.div>
+            </div>
           </TabsContent>
           <TabsContent value="mobile" className="mt-0">
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="grid md:grid-cols-2 gap-8 items-center"
-            >
+            <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">
                   {t("mobile.title")}
@@ -116,15 +99,10 @@ export function Technology() {
                   className="relative z-10 rounded-lg shadow-lg"
                 />
               </div>
-            </motion.div>
+            </div>
           </TabsContent>
           <TabsContent value="cloud" className="mt-0">
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="grid md:grid-cols-2 gap-8 items-center"
-            >
+            <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">
                   {t("cloud.title")}
@@ -153,7 +131,7 @@ export function Technology() {
                   className="relative z-10 rounded-lg shadow-lg"
                 />
               </div>
-            </motion.div>
+            </div>
           </TabsContent>
         </Tabs>
       </div>

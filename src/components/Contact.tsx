@@ -1,4 +1,3 @@
-import { motion } from "framer-motion"
 import Link from "next/link"
 import {
   MapPin,
@@ -18,12 +17,7 @@ export function Contact() {
     <section id="contact" className="py-20 md:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
+          <div>
             <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
               {t("badge")}
             </div>
@@ -80,13 +74,8 @@ export function Contact() {
                 )
               )}
             </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
+          </div>
+          <div>
             <Card className="border-none shadow-xl">
               <CardContent className="p-6">
                 <form className="space-y-6">
@@ -152,7 +141,7 @@ export function Contact() {
                 </form>
               </CardContent>
             </Card>
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

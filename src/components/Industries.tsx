@@ -1,4 +1,3 @@
-import { motion } from "framer-motion"
 import {
   Building2,
   Factory,
@@ -16,13 +15,7 @@ export function Industries() {
   return (
     <section id="industries" className="py-20 md:py-32 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-16"
-        >
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("badge")}
           </div>
@@ -30,16 +23,12 @@ export function Industries() {
             {t("title")}
           </h2>
           <p className="text-black/80">{t("description")}</p>
-        </motion.div>
+        </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
-            <motion.div
+            <div
               key={index}
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.5, delay: index * 0.05 }}
-              viewport={{ once: true }}
               className="bg-white rounded-lg shadow-md p-6 text-center"
             >
               <div className="w-16 h-16 rounded-full bg-[#48b4e8]/10 flex items-center justify-center mx-auto mb-4">
@@ -64,7 +53,7 @@ export function Industries() {
               <p className="text-sm text-black/70">
                 {t(`industry${index}.description`)}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

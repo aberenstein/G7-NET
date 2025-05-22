@@ -1,21 +1,15 @@
 import Image from "next/image"
-import { motion } from "framer-motion"
 import { Star } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { useTranslations } from "next-intl"
+import { motion } from "framer-motion"
 
 export function Testimonials() {
   const t = useTranslations("testimonials")
   return (
     <section id="testimonials" className="py-20 md:py-32 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-16"
-        >
+        <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("badge")}
           </div>
@@ -23,17 +17,11 @@ export function Testimonials() {
             {t("title")}
           </h2>
           <p className="text-black/80">{t("description")}</p>
-        </motion.div>
+        </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[1, 2, 3, 4, 5, 6].map((index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true }}
-            >
+            <div key={index} className="h-full border-none shadow-lg">
               <Card className="h-full border-none shadow-lg">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
@@ -68,7 +56,7 @@ export function Testimonials() {
                   </p>
                 </CardContent>
               </Card>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
