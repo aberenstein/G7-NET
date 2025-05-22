@@ -2,7 +2,6 @@ import Image from "next/image"
 import { Star } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { useTranslations } from "next-intl"
-import { motion } from "framer-motion"
 
 export function Testimonials() {
   const t = useTranslations("testimonials")
