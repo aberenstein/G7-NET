@@ -13,14 +13,14 @@ export const metadata: Metadata = {
   description: "Lading Page - G7NET",
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: Readonly<{
   children: React.ReactNode
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }>) {
-  const { locale } = params
+  const { locale } = await params
 
   return (
     <html lang={locale}>
