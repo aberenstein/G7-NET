@@ -9,9 +9,10 @@ import {
   Car,
   Banknote,
 } from "lucide-react"
-import { t } from "@/i18n"
+import { useTranslations } from "next-intl"
 
 export function Industries() {
+  const t = useTranslations("industries")
   return (
     <section id="industries" className="py-20 md:py-32 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,12 +24,12 @@ export function Industries() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
-            {t("industries.badge")}
+            {t("badge")}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-            {t("industries.title")}
+            {t("title")}
           </h2>
-          <p className="text-black/80">{t("industries.description")}</p>
+          <p className="text-black/80">{t("description")}</p>
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -58,10 +59,10 @@ export function Industries() {
                 {index === 8 && <Banknote className="h-8 w-8 text-[#48b4e8]" />}
               </div>
               <h3 className="text-lg font-bold text-black mb-2">
-                {t(`industries.industry${index}.title`)}
+                {t(`industry${index}.title`)}
               </h3>
               <p className="text-sm text-black/70">
-                {t(`industries.industry${index}.description`)}
+                {t(`industry${index}.description`)}
               </p>
             </motion.div>
           ))}

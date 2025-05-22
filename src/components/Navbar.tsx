@@ -1,10 +1,34 @@
+"use client"
+
 import Link from "next/link"
-import { ArrowRight, Sparkles } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { t } from "@/i18n"
+import { Locale, useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
+import { useParams, usePathname, useRouter } from "next/navigation"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+import { routing } from "@/i18n/routing"
 
 export function Navbar({ scrolled }: { scrolled: boolean }) {
+  const router = useRouter()
+  const pathname = usePathname()
+  const params = useParams()
+  const t = useTranslations("nav")
+  const locale = useLocale()
+
+  function onSelectChange(nextLocale: string) {
+    const segments = pathname.split("/")
+    segments[1] = nextLocale
+    const newPath = segments.join("/") || "/"
+    router.replace(newPath)
+  }
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -25,43 +49,55 @@ export function Navbar({ scrolled }: { scrolled: boolean }) {
               href="#about"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
-              {t("nav.about")}
+              {t("about")}
             </Link>
             <Link
               href="#services"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
-              {t("nav.services")}
+              {t("services")}
             </Link>
             <Link
               href="#technology"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
-              {t("nav.technology")}
+              {t("technology")}
             </Link>
             <Link
               href="#industries"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
-              {t("nav.industries")}
+              {t("industries")}
             </Link>
             <Link
               href="#testimonials"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
-              {t("nav.testimonials")}
+              {t("testimonials")}
             </Link>
             <Link
               href="#contact"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
-              {t("nav.contact")}
+              {t("contact")}
             </Link>
           </nav>
-          <div>
+          <div className="flex items-center gap-2">
             <Button className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white">
-              {t("nav.cta")} <ArrowRight className="ml-2 h-4 w-4" />
+              {t("cta")} <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
+            <Select onValueChange={onSelectChange} aria-label="Select language">
+              <SelectTrigger className="w-[70px] h-8 text-sm cursor-pointer">
+                <SelectValue placeholder={locale.toUpperCase()} />
+              </SelectTrigger>
+              <SelectContent>
+                {routing.locales.map((lng) => (
+                  <SelectItem className="cursor-pointer" key={lng} value={lng}>
+                    {lng.toUpperCase()}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           </div>
         </div>
       </div>

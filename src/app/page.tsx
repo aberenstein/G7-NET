@@ -1,43 +1,6 @@
-"use client"
+// app/page.tsx
+import { redirect } from "next/navigation"
 
-import { useEffect, useState } from "react"
-import { Navbar } from "@/components/Navbar"
-import { Hero } from "@/components/Hero"
-import { About } from "@/components/About"
-import { Services } from "@/components/Services"
-import { Technology } from "@/components/Technology"
-import { Industries } from "@/components/Industries"
-import { Testimonials } from "@/components/Testimonials"
-import { Contact } from "@/components/Contact"
-import { Footer } from "@/components/Footer"
-
-export default function Home() {
-  const [scrolled, setScrolled] = useState(false)
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    handleScroll()
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [])
-
-  return (
-    <div className="relative min-h-screen bg-white overflow-hidden">
-      <Navbar scrolled={scrolled} />
-      <Hero />
-      <About />
-      <Services />
-      <Technology />
-      <Industries />
-      <Testimonials />
-      <Contact />
-      <Footer />
-    </div>
-  )
+export default function Page() {
+  redirect("/es")
 }

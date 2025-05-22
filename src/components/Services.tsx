@@ -10,9 +10,10 @@ import {
   Users,
 } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
-import { t } from "@/i18n"
+import { useTranslations } from "next-intl"
 
 export function Services() {
+  const t = useTranslations("services")
   return (
     <section id="services" className="py-20 md:py-32 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,12 +25,12 @@ export function Services() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
-            {t("services.badge")}
+            {t("badge")}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-            {t("services.title")}
+            {t("title")}
           </h2>
-          <p className="text-black/80">{t("services.description")}</p>
+          <p className="text-black/80">{t("description")}</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -62,16 +63,16 @@ export function Services() {
                     )}
                   </div>
                   <h3 className="text-xl font-bold text-black mb-3">
-                    {t(`services.service${index}.title`)}
+                    {t(`service${index}.title`)}
                   </h3>
                   <p className="text-black/70 mb-4">
-                    {t(`services.service${index}.description`)}
+                    {t(`service${index}.description`)}
                   </p>
                   <Link
                     href="#"
                     className="inline-flex items-center text-[#48b4e8] font-medium hover:underline group"
                   >
-                    {t("services.learnMore")}
+                    {t("learnMore")}
                     <ChevronRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </CardContent>

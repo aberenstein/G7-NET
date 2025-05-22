@@ -2,9 +2,10 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { Star } from "lucide-react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { t } from "@/i18n"
+import { useTranslations } from "next-intl"
 
 export function Technology() {
+  const t = useTranslations("technology")
   return (
     <section id="technology" className="py-20 md:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,12 +17,12 @@ export function Technology() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
-            {t("technology.badge")}
+            {t("badge")}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-            {t("technology.title")}
+            {t("title")}
           </h2>
-          <p className="text-black/80">{t("technology.description")}</p>
+          <p className="text-black/80">{t("description")}</p>
         </motion.div>
 
         <Tabs defaultValue="web" className="w-full max-w-4xl mx-auto">
@@ -30,19 +31,19 @@ export function Technology() {
               value="web"
               className="data-[state=active]:bg-[#48b4e8] data-[state=active]:text-white"
             >
-              {t("technology.tabs.web")}
+              {t("tabs.web")}
             </TabsTrigger>
             <TabsTrigger
               value="mobile"
               className="data-[state=active]:bg-[#48b4e8] data-[state=active]:text-white"
             >
-              {t("technology.tabs.mobile")}
+              {t("tabs.mobile")}
             </TabsTrigger>
             <TabsTrigger
               value="cloud"
               className="data-[state=active]:bg-[#48b4e8] data-[state=active]:text-white"
             >
-              {t("technology.tabs.cloud")}
+              {t("tabs.cloud")}
             </TabsTrigger>
           </TabsList>
           <TabsContent value="web" className="mt-0">
@@ -54,20 +55,16 @@ export function Technology() {
             >
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">
-                  {t("technology.web.title")}
+                  {t("web.title")}
                 </h3>
-                <p className="text-black/80 mb-6">
-                  {t("technology.web.description")}
-                </p>
+                <p className="text-black/80 mb-6">{t("web.description")}</p>
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((item) => (
                     <li key={item} className="flex items-center">
                       <div className="w-6 h-6 rounded-full bg-[#48b4e8]/20 flex items-center justify-center mr-3">
                         <Star className="h-3 w-3 text-[#48b4e8]" />
                       </div>
-                      <span className="text-black">
-                        {t(`technology.web.item${item}`)}
-                      </span>
+                      <span className="text-black">{t(`web.item${item}`)}</span>
                     </li>
                   ))}
                 </ul>
@@ -93,11 +90,9 @@ export function Technology() {
             >
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">
-                  {t("technology.mobile.title")}
+                  {t("mobile.title")}
                 </h3>
-                <p className="text-black/80 mb-6">
-                  {t("technology.mobile.description")}
-                </p>
+                <p className="text-black/80 mb-6">{t("mobile.description")}</p>
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((item) => (
                     <li key={item} className="flex items-center">
@@ -105,7 +100,7 @@ export function Technology() {
                         <Star className="h-3 w-3 text-[#48b4e8]" />
                       </div>
                       <span className="text-black">
-                        {t(`technology.mobile.item${item}`)}
+                        {t(`mobile.item${item}`)}
                       </span>
                     </li>
                   ))}
@@ -132,11 +127,9 @@ export function Technology() {
             >
               <div>
                 <h3 className="text-2xl font-bold text-black mb-4">
-                  {t("technology.cloud.title")}
+                  {t("cloud.title")}
                 </h3>
-                <p className="text-black/80 mb-6">
-                  {t("technology.cloud.description")}
-                </p>
+                <p className="text-black/80 mb-6">{t("cloud.description")}</p>
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((item) => (
                     <li key={item} className="flex items-center">
@@ -144,7 +137,7 @@ export function Technology() {
                         <Star className="h-3 w-3 text-[#48b4e8]" />
                       </div>
                       <span className="text-black">
-                        {t(`technology.cloud.item${item}`)}
+                        {t(`cloud.item${item}`)}
                       </span>
                     </li>
                   ))}

@@ -1,6 +1,5 @@
 import Link from "next/link"
 import {
-  Sparkles,
   MapPin,
   MessageSquare,
   Twitter,
@@ -8,10 +7,12 @@ import {
   Facebook,
   Instagram,
 } from "lucide-react"
-import { t } from "@/i18n"
+
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export function Footer() {
+  const t = useTranslations("footer")
   return (
     <footer className="bg-black text-white py-12 md:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,7 +21,7 @@ export function Footer() {
             <div className="flex items-center space-x-2 mb-6">
               <Image src="/logo.png" alt="G7NET" width={100} height={100} />
             </div>
-            <p className="text-white/70 mb-6">{t("footer.description")}</p>
+            <p className="text-white/70 mb-6">{t("description")}</p>
             <div className="flex space-x-4">
               {["twitter", "linkedin", "facebook", "instagram"].map(
                 (social) => (
@@ -42,9 +43,7 @@ export function Footer() {
             </div>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-6">
-              {t("footer.quickLinks.title")}
-            </h3>
+            <h3 className="text-lg font-bold mb-6">{t("quickLinks.title")}</h3>
             <ul className="space-y-3">
               {[1, 2, 3, 4, 5].map((index) => (
                 <li key={index}>
@@ -52,16 +51,14 @@ export function Footer() {
                     href="#"
                     className="text-white/70 hover:text-[#48b4e8] transition-colors"
                   >
-                    {t(`footer.quickLinks.link${index}`)}
+                    {t(`quickLinks.link${index}`)}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-6">
-              {t("footer.services.title")}
-            </h3>
+            <h3 className="text-lg font-bold mb-6">{t("services.title")}</h3>
             <ul className="space-y-3">
               {[1, 2, 3, 4, 5].map((index) => (
                 <li key={index}>
@@ -69,49 +66,42 @@ export function Footer() {
                     href="#"
                     className="text-white/70 hover:text-[#48b4e8] transition-colors"
                   >
-                    {t(`footer.services.service${index}`)}
+                    {t(`services.service${index}`)}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-6">
-              {t("footer.contact.title")}
-            </h3>
+            <h3 className="text-lg font-bold mb-6">{t("contact.title")}</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-[#48b4e8] mr-3 mt-0.5" />
-                <span className="text-white/70">
-                  {t("footer.contact.address")}
-                </span>
+                <span className="text-white/70">{t("contact.address")}</span>
               </li>
               <li className="flex items-start">
                 <MessageSquare className="h-5 w-5 text-[#48b4e8] mr-3 mt-0.5" />
-                <span className="text-white/70">
-                  {t("footer.contact.email")}
-                </span>
+                <span className="text-white/70">{t("contact.email")}</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/70 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} {t("companyName")}.{" "}
-            {t("footer.copyright")}
+            &copy; {new Date().getFullYear()} G7NET. {t("copyright")}
           </p>
           <div className="flex space-x-6">
             <Link
               href="#"
               className="text-white/70 text-sm hover:text-[#48b4e8] transition-colors"
             >
-              {t("footer.privacy")}
+              {t("privacy")}
             </Link>
             <Link
               href="#"
               className="text-white/70 text-sm hover:text-[#48b4e8] transition-colors"
             >
-              {t("footer.terms")}
+              {t("terms")}
             </Link>
           </div>
         </div>

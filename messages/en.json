@@ -1,0 +1,229 @@
+{
+  "companyName": "G7NET",
+  "nav": {
+    "about": "About Us",
+    "services": "Services",
+    "technology": "Technology",
+    "industries": "Industries",
+    "argentina": "Why Argentina",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "cta": "Contact Us"
+  },
+  "hero": {
+    "badge": "Technological Innovation",
+    "title": {
+      "part1": "Innovative digital",
+      "highlight": "solutions",
+      "part2": "for your business"
+    },
+    "subtitle": "We create tailor-made technological solutions that drive the growth and digital transformation of your company.",
+    "primaryCta": "Get Started",
+    "secondaryCta": "Learn More"
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Our Team",
+    "description1": "We are a team of professionals passionate about technology and innovation. We specialize in developing custom digital solutions that help our clients achieve their business goals.",
+    "description2": "With years of experience in the sector, we have worked with companies of various sizes and industries, from startups to large corporations, offering high-quality technological solutions.",
+    "firstMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
+      "description": "As CEO of La Nación Group, Guillermo has led the digital and cultural transformation of a traditional media company, breaking a paradigm. Previously, he was General Director of Telecom Personal and led its development in a market transformed by smartphones and mobile internet. He was a leader in revenue and Ebitda. Previously, as CMO, he managed the development of the first 3G service in the country and was key in the Telecom Personal startup in 1994."
+    },
+    "secondMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
+      "description": "As CEO of La Nación Group, Guillermo has led the digital and cultural transformation of a traditional media company, breaking a paradigm. Previously, he was General Director of Telecom Personal and led its development in a market transformed by smartphones and mobile internet. He was a leader in revenue and Ebitda. Previously, as CMO, he managed the development of the first 3G service in the country and was key in the Telecom Personal startup in 1994."
+    }
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Comprehensive digital solutions for your business",
+    "description": "We offer a wide range of technology services designed to drive the growth and digital transformation of your company.",
+    "learnMore": "Learn more",
+    "service1": {
+      "title": "Web Development",
+      "description": "We create custom websites and web applications, optimized to offer the best user experience."
+    },
+    "service2": {
+      "title": "Mobile Development",
+      "description": "We develop native and hybrid mobile applications for iOS and Android that connect with your users."
+    },
+    "service3": {
+      "title": "IT Consulting",
+      "description": "Strategic advice to optimize your technological processes and maximize ROI."
+    },
+    "service4": {
+      "title": "UX/UI Design",
+      "description": "We design intuitive and attractive interfaces that improve user experience and increase conversion."
+    },
+    "service5": {
+      "title": "Cloud Solutions",
+      "description": "We implement cloud solutions that optimize your resources and improve your business scalability."
+    },
+    "service6": {
+      "title": "Dedicated Teams",
+      "description": "We form custom development teams that integrate with your company to work on your projects."
+    }
+  },
+  "technology": {
+    "badge": "Technology Focus Areas",
+    "title": "Cutting-edge technologies for innovative solutions",
+    "description": "We use the most advanced and efficient technologies to develop digital solutions that drive your business growth.",
+    "tabs": {
+      "web": "Web Development",
+      "mobile": "Mobile Development",
+      "cloud": "Cloud & DevOps"
+    },
+    "web": {
+      "title": "Next-Generation Web Development",
+      "description": "We use modern frameworks and technologies to create fast, secure, and scalable web applications.",
+      "item1": "React, Next.js, Vue.js",
+      "item2": "Node.js, Express, NestJS",
+      "item3": "GraphQL, REST APIs",
+      "item4": "PostgreSQL, MongoDB, MySQL"
+    },
+    "mobile": {
+      "title": "Cross-Platform Mobile Development",
+      "description": "We create native and hybrid mobile applications that offer an exceptional user experience.",
+      "item1": "React Native, Flutter",
+      "item2": "Swift, Kotlin",
+      "item3": "Firebase, AWS Amplify",
+      "item4": "API and service integration"
+    },
+    "cloud": {
+      "title": "Cloud and DevOps Solutions",
+      "description": "We implement secure, scalable, and efficient cloud infrastructures for your applications.",
+      "item1": "AWS, Google Cloud, Azure",
+      "item2": "Docker, Kubernetes",
+      "item3": "CI/CD, Automation",
+      "item4": "Monitoring and Security"
+    }
+  },
+  "industries": {
+    "badge": "Industries We Serve",
+    "title": "Specialized solutions for various sectors",
+    "description": "We have experience working with companies from different industries, adapting our solutions to the specific needs of each sector.",
+    "industry1": {
+      "title": "Fintech",
+      "description": "Secure and scalable solutions for the financial sector"
+    },
+    "industry2": {
+      "title": "E-commerce",
+      "description": "E-commerce platforms optimized for sales"
+    },
+    "industry3": {
+      "title": "Health",
+      "description": "Management and telemedicine systems for the health sector"
+    },
+    "industry4": {
+      "title": "Education",
+      "description": "E-learning and educational management platforms"
+    },
+    "industry5": {
+      "title": "Logistics",
+      "description": "Tracking and route optimization systems"
+    },
+    "industry6": {
+      "title": "Real Estate",
+      "description": "Property management and visualization platforms"
+    },
+    "industry7": {
+      "title": "Tourism",
+      "description": "Solutions for reservations and tourist experiences"
+    },
+    "industry8": {
+      "title": "Manufacturing",
+      "description": "Process management and optimization systems"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What our clients say",
+    "description": "Companies from all over the world trust us to develop their technological solutions. This is what they say about our collaboration.",
+    "testimonial1": {
+      "name": "Carlos Rodríguez",
+      "position": "CEO, FinTech Solutions",
+      "quote": "The TechSolutions team perfectly understood our needs and developed a platform that exceeded our expectations. Their professionalism and technical quality are exceptional."
+    },
+    "testimonial2": {
+      "name": "Laura Martínez",
+      "position": "CTO, E-commerce Global",
+      "quote": "Working with TechSolutions has been an extraordinary experience. Their ability to adapt to changes and deliver high-quality solutions on tight deadlines is impressive."
+    },
+    "testimonial3": {
+      "name": "Miguel Sánchez",
+      "position": "Innovation Director, HealthTech",
+      "quote": "The mobile application developed by TechSolutions has transformed the way our patients interact with our services. Exceptional work."
+    },
+    "testimonial4": {
+      "name": "Ana González",
+      "position": "Founder, EdTech Startup",
+      "quote": "As a startup, we needed a technology partner who understood our limitations and vision. TechSolutions has been that ideal partner, helping us grow quickly."
+    },
+    "testimonial5": {
+      "name": "Roberto Fernández",
+      "position": "COO, International Logistics",
+      "quote": "The logistics management platform developed by TechSolutions has optimized our processes and significantly reduced costs. Highly recommended."
+    },
+    "testimonial6": {
+      "name": "Sofía López",
+      "position": "CMO, Retail Innovation",
+      "quote": "The user experience of our new website is exceptional. The TechSolutions team really understands how to turn visitors into customers."
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Ready to boost your business?",
+    "description": "We are here to help you turn your ideas into innovative digital solutions. Contact us and let's start working together on your next project.",
+    "address": {
+      "title": "Our Office",
+      "value": "Av. del Libertador 6250, Buenos Aires, Argentina"
+    },
+    "email": {
+      "title": "Email",
+      "value": "info@techsolutions.com"
+    },
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your project...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "We create tailor-made technological solutions that drive the growth and digital transformation of your company.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "link1": "Home",
+      "link2": "About Us",
+      "link3": "Services",
+      "link4": "Projects",
+      "link5": "Blog"
+    },
+    "services": {
+      "title": "Services",
+      "service1": "Web Development",
+      "service2": "Mobile Development",
+      "service3": "IT Consulting",
+      "service4": "UX/UI Design",
+      "service5": "Cloud Solutions"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Av. del Libertador 6250, Buenos Aires, Argentina",
+      "email": "info@techsolutions.com"
+    },
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  }
+}

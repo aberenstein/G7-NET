@@ -1,6 +1,9 @@
 import type { Metadata } from "next"
 import { Work_Sans } from "next/font/google"
 import "./globals.css"
+import { hasLocale } from "next-intl"
+import { notFound } from "next/navigation"
+import { routing } from "@/i18n/routing"
 
 const workSans = Work_Sans({
   subsets: ["latin"],
@@ -13,13 +16,17 @@ export const metadata: Metadata = {
   description: "Lading Page - G7NET",
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode
+  params: Promise<{ locale: string }>
 }>) {
+  const { locale } = await params
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={`${workSans.className} antialiased`}>{children}</body>
     </html>
   )

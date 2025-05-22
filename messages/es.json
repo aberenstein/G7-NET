@@ -23,16 +23,21 @@
   },
   "about": {
     "badge": "Sobre Nosotros",
-    "title": "Expertos en desarrollo de software y soluciones digitales",
+    "title": "Nuestro Equipo",
     "description1": "Somos un equipo de profesionales apasionados por la tecnología y la innovación. Nos especializamos en el desarrollo de soluciones digitales a medida que ayudan a nuestros clientes a alcanzar sus objetivos de negocio.",
     "description2": "Con años de experiencia en el sector, hemos trabajado con empresas de diversos tamaños y sectores, desde startups hasta grandes corporaciones, ofreciendo soluciones tecnológicas de alta calidad.",
-    "feature1": {
-      "title": "Equipo Experto",
-      "description": "Profesionales altamente calificados"
+    "intro": "Los fundadores de {companyName} tienen más de 25 años de experiencia ejecutiva en la industria TMT, generando valor en grandes empresas de telecomunicaciones y medios.",
+    "firstMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
+      "description": "Como CEO de La Nación Group, Guillermo lideró la transformación digital y cultural de una empresa de medios tradicional, rompiendo un paradigma. Antes de eso, fue Gerente General en Telecom Personal y lideró su crecimiento en un mercado revolucionado por los smartphones y el internet móvil. La posicionó como líder en ingresos y Ebitda. Previamente, como CMO, gestionó el desarrollo del primer servicio 3G del país y fue clave en el startup de Telecom Personal en 1994."
     },
-    "feature2": {
-      "title": "Innovación Constante",
-      "description": "Siempre a la vanguardia tecnológica"
+    "secondMember": {
+      "name": "IGNACIO NORES",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/ignacionores/",
+      "description": "Como VP del mercado de consumo en Entel Perú, fue clave en el lanzamiento de la operación. Lideró los equipos de ventas, marketing y operaciones, logrando un crecimiento de ingresos de 4X en 4 años. Antes de eso, como CMO de Telecom Personal, tuvo la asertividad y creatividad para inspirar al equipo a romper continuamente las barreras del marketing tradicional y encontrar nuevas formas de competir contra jugadores regionales. Lideró los servicios de valor agregado y la explosión de datos, logrando un referente regional en crecimiento de ingresos por datos. Previamente, lanzó el negocio B2B como parte del equipo fundador de Despegar.com."
     }
   },
   "services": {

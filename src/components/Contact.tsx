@@ -10,9 +10,10 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { t, tString } from "@/i18n"
+import { useTranslations } from "next-intl"
 
 export function Contact() {
+  const t = useTranslations("contact")
   return (
     <section id="contact" className="py-20 md:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,12 +25,12 @@ export function Contact() {
             viewport={{ once: true }}
           >
             <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
-              {t("contact.badge")}
+              {t("badge")}
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-              {t("contact.title")}
+              {t("title")}
             </h2>
-            <p className="text-black/80 mb-8">{t("contact.description")}</p>
+            <p className="text-black/80 mb-8">{t("description")}</p>
 
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
@@ -40,9 +41,9 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-black mb-1">
-                    {t("contact.address.title")}
+                    {t("address.title")}
                   </h3>
-                  <p className="text-black/70">{t("contact.address.value")}</p>
+                  <p className="text-black/70">{t("address.value")}</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -53,9 +54,9 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-black mb-1">
-                    {t("contact.email.title")}
+                    {t("email.title")}
                   </h3>
-                  <p className="text-black/70">{t("contact.email.value")}</p>
+                  <p className="text-black/70">{t("email.value")}</p>
                 </div>
               </div>
             </div>
@@ -94,13 +95,13 @@ export function Contact() {
                       htmlFor="name"
                       className="text-sm font-medium text-black"
                     >
-                      {t("contact.form.name")}
+                      {t("form.name")}
                     </label>
                     <input
                       id="name"
                       type="text"
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
-                      placeholder={tString("contact.form.namePlaceholder")}
+                      placeholder={t("form.namePlaceholder")}
                     />
                   </div>
                   <div className="space-y-2">
@@ -108,13 +109,13 @@ export function Contact() {
                       htmlFor="email"
                       className="text-sm font-medium text-black"
                     >
-                      {t("contact.form.email")}
+                      {t("form.email")}
                     </label>
                     <input
                       id="email"
                       type="email"
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
-                      placeholder={tString("contact.form.emailPlaceholder")}
+                      placeholder={t("form.emailPlaceholder")}
                     />
                   </div>
                   <div className="space-y-2">
@@ -122,13 +123,13 @@ export function Contact() {
                       htmlFor="subject"
                       className="text-sm font-medium text-black"
                     >
-                      {t("contact.form.subject")}
+                      {t("form.subject")}
                     </label>
                     <input
                       id="subject"
                       type="text"
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
-                      placeholder={tString("contact.form.subjectPlaceholder")}
+                      placeholder={t("form.subjectPlaceholder")}
                     />
                   </div>
                   <div className="space-y-2">
@@ -136,17 +137,17 @@ export function Contact() {
                       htmlFor="message"
                       className="text-sm font-medium text-black"
                     >
-                      {t("contact.form.message")}
+                      {t("form.message")}
                     </label>
                     <textarea
                       id="message"
                       rows={4}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
-                      placeholder={tString("contact.form.messagePlaceholder")}
+                      placeholder={t("form.messagePlaceholder")}
                     />
                   </div>
                   <Button className="w-full bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white">
-                    {t("contact.form.submit")}
+                    {t("form.submit")}
                   </Button>
                 </form>
               </CardContent>

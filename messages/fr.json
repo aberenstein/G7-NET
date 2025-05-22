@@ -1,0 +1,229 @@
+{
+  "companyName": "G7NET",
+  "nav": {
+    "about": "À propos de nous",
+    "services": "Services",
+    "technology": "Technologie",
+    "industries": "Secteurs",
+    "argentina": "Pourquoi l'Argentine",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "cta": "Contactez-nous"
+  },
+  "hero": {
+    "badge": "Innovation technologique",
+    "title": {
+      "part1": "Des solutions numériques",
+      "highlight": "innovantes",
+      "part2": "pour votre entreprise"
+    },
+    "subtitle": "Nous créons des solutions technologiques sur mesure qui stimulent la croissance et la transformation numérique de votre entreprise.",
+    "primaryCta": "Commencer maintenant",
+    "secondaryCta": "En savoir plus"
+  },
+  "about": {
+    "badge": "À propos de nous",
+    "title": "Notre équipe",
+    "description1": "Nous sommes une équipe de professionnels passionnés par la technologie et l'innovation. Nous sommes spécialisés dans le développement de solutions numériques sur mesure qui aident nos clients à atteindre leurs objectifs commerciaux.",
+    "description2": "Avec des années d'expérience dans le secteur, nous avons travaillé avec des entreprises de toutes tailles et de tous secteurs, des startups aux grandes entreprises, en offrant des solutions technologiques de haute qualité.",
+    "firstMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
+      "description": "Comme PDG de La Nación Group, Guillermo a dirigé la transformation numérique et culturelle d'une entreprise de médias traditionnels, cassant un paradigme. Avant cela, il était Directeur Général de Telecom Personal et a mené son développement dans un marché transformé par les smartphones et internet mobile. Il a été un leader dans les revenus et l'Ebitda. Précédemment, comme CMO, il a géré le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
+    },
+    "secondMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
+      "description": "Comme PDG de La Nación Group, Guillermo a dirigé la transformation numérique et culturelle d'une entreprise de médias traditionnels, cassant un paradigme. Avant cela, il était Directeur Général de Telecom Personal et a mené son développement dans un marché transformé par les smartphones et internet mobile. Il a été un leader dans les revenus et l'Ebitda. Précédemment, comme CMO, il a géré le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
+    }
+  },
+  "services": {
+    "badge": "Nos services",
+    "title": "Des solutions numériques complètes pour votre entreprise",
+    "description": "Nous offrons une large gamme de services technologiques conçus pour stimuler la croissance et la transformation numérique de votre entreprise.",
+    "learnMore": "En savoir plus",
+    "service1": {
+      "title": "Développement Web",
+      "description": "Nous créons des sites web et des applications web sur mesure, optimisés pour offrir la meilleure expérience utilisateur."
+    },
+    "service2": {
+      "title": "Développement mobile",
+      "description": "Nous développons des applications mobiles natives et hybrides pour iOS et Android qui connectent avec vos utilisateurs."
+    },
+    "service3": {
+      "title": "Conseil IT",
+      "description": "Conseil stratégique pour optimiser vos processus technologiques et maximiser le retour sur investissement."
+    },
+    "service4": {
+      "title": "Conception UX/UI",
+      "description": "Nous concevons des interfaces intuitives et attrayantes qui améliorent l'expérience utilisateur et augmentent la conversion."
+    },
+    "service5": {
+      "title": "Solutions Cloud",
+      "description": "Nous mettons en œuvre des solutions cloud qui optimisent vos ressources et améliorent l'évolutivité de votre entreprise."
+    },
+    "service6": {
+      "title": "Équipes dédiées",
+      "description": "Nous formons des équipes de développement sur mesure qui s'intègrent à votre entreprise pour travailler sur vos projets."
+    }
+  },
+  "technology": {
+    "badge": "Domaines technologiques",
+    "title": "Des technologies de pointe pour des solutions innovantes",
+    "description": "Nous utilisons les technologies les plus avancées et les plus efficaces pour développer des solutions numériques qui stimulent la croissance de votre entreprise.",
+    "tabs": {
+      "web": "Développement Web",
+      "mobile": "Développement mobile",
+      "cloud": "Cloud & DevOps"
+    },
+    "web": {
+      "title": "Développement Web de nouvelle génération",
+      "description": "Nous utilisons des frameworks et des technologies modernes pour créer des applications web rapides, sécurisées et évolutives.",
+      "item1": "React, Next.js, Vue.js",
+      "item2": "Node.js, Express, NestJS",
+      "item3": "GraphQL, REST APIs",
+      "item4": "PostgreSQL, MongoDB, MySQL"
+    },
+    "mobile": {
+      "title": "Développement mobile multiplateforme",
+      "description": "Nous créons des applications mobiles natives et hybrides qui offrent une expérience utilisateur exceptionnelle.",
+      "item1": "React Native, Flutter",
+      "item2": "Swift, Kotlin",
+      "item3": "Firebase, AWS Amplify",
+      "item4": "Intégration avec APIs et services"
+    },
+    "cloud": {
+      "title": "Solutions Cloud et DevOps",
+      "description": "Nous mettons en place des infrastructures cloud sécurisées, évolutives et efficaces pour vos applications.",
+      "item1": "AWS, Google Cloud, Azure",
+      "item2": "Docker, Kubernetes",
+      "item3": "CI/CD, Automatisation",
+      "item4": "Surveillance et sécurité"
+    }
+  },
+  "industries": {
+    "badge": "Secteurs que nous servons",
+    "title": "Des solutions spécialisées pour divers secteurs",
+    "description": "Nous avons de l'expérience avec des entreprises de différents secteurs, en adaptant nos solutions aux besoins spécifiques de chaque secteur.",
+    "industry1": {
+      "title": "Fintech",
+      "description": "Des solutions sécurisées et évolutives pour le secteur financier"
+    },
+    "industry2": {
+      "title": "E-commerce",
+      "description": "Plateformes de commerce électronique optimisées pour les ventes"
+    },
+    "industry3": {
+      "title": "Santé",
+      "description": "Systèmes de gestion et télémédecine pour le secteur de la santé"
+    },
+    "industry4": {
+      "title": "Éducation",
+      "description": "Plateformes d'e-learning et de gestion éducative"
+    },
+    "industry5": {
+      "title": "Logistique",
+      "description": "Systèmes de suivi et d'optimisation des itinéraires"
+    },
+    "industry6": {
+      "title": "Immobilier",
+      "description": "Plateformes de gestion et de visualisation de propriétés"
+    },
+    "industry7": {
+      "title": "Tourisme",
+      "description": "Solutions pour les réservations et les expériences touristiques"
+    },
+    "industry8": {
+      "title": "Manufacture",
+      "description": "Systèmes de gestion et d'optimisation des processus"
+    }
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ce que disent nos clients",
+    "description": "Des entreprises du monde entier nous font confiance pour développer leurs solutions technologiques. Voici ce qu'elles disent de notre collaboration.",
+    "testimonial1": {
+      "name": "Carlos Rodríguez",
+      "position": "PDG, FinTech Solutions",
+      "quote": "L'équipe de TechSolutions a parfaitement compris nos besoins et a développé une plateforme qui a dépassé nos attentes. Leur professionnalisme et leur qualité technique sont exceptionnels."
+    },
+    "testimonial2": {
+      "name": "Laura Martínez",
+      "position": "CTO, E-commerce Global",
+      "quote": "Travailler avec TechSolutions a été une expérience extraordinaire. Leur capacité à s'adapter aux changements et à livrer des solutions de haute qualité dans des délais serrés est impressionnante."
+    },
+    "testimonial3": {
+      "name": "Miguel Sánchez",
+      "position": "Directeur de l'innovation, HealthTech",
+      "quote": "L'application mobile développée par TechSolutions a transformé la façon dont nos patients interagissent avec nos services. Un travail exceptionnel."
+    },
+    "testimonial4": {
+      "name": "Ana González",
+      "position": "Fondatrice, EdTech Startup",
+      "quote": "En tant que startup, nous avions besoin d'un partenaire technologique qui comprenne nos limites et notre vision. TechSolutions a été ce partenaire idéal, nous aidant à croître rapidement."
+    },
+    "testimonial5": {
+      "name": "Roberto Fernández",
+      "position": "COO, Logistique Internationale",
+      "quote": "La plateforme de gestion logistique développée par TechSolutions a optimisé nos processus et réduit considérablement les coûts. Hautement recommandé."
+    },
+    "testimonial6": {
+      "name": "Sofía López",
+      "position": "CMO, Retail Innovation",
+      "quote": "L'expérience utilisateur de notre nouveau site web est exceptionnelle. L'équipe de TechSolutions comprend vraiment comment transformer les visiteurs en clients."
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Prêt à booster votre entreprise ?",
+    "description": "Nous sommes là pour vous aider à transformer vos idées en solutions numériques innovantes. Contactez-nous et commençons à travailler ensemble sur votre prochain projet.",
+    "address": {
+      "title": "Notre bureau",
+      "value": "Av. del Libertador 6250, Buenos Aires, Argentine"
+    },
+    "email": {
+      "title": "Email",
+      "value": "info@techsolutions.com"
+    },
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous davantage de votre projet...",
+      "submit": "Envoyer le message"
+    }
+  },
+  "footer": {
+    "description": "Nous créons des solutions technologiques sur mesure qui stimulent la croissance et la transformation numérique de votre entreprise.",
+    "quickLinks": {
+      "title": "Liens rapides",
+      "link1": "Accueil",
+      "link2": "À propos de nous",
+      "link3": "Services",
+      "link4": "Projets",
+      "link5": "Blog"
+    },
+    "services": {
+      "title": "Services",
+      "service1": "Développement Web",
+      "service2": "Développement mobile",
+      "service3": "Conseil IT",
+      "service4": "Conception UX/UI",
+      "service5": "Solutions Cloud"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Av. del Libertador 6250, Buenos Aires, Argentine",
+      "email": "info@techsolutions.com"
+    },
+    "copyright": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales"
+  }
+}

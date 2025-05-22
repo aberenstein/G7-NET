@@ -2,9 +2,10 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { Star } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
-import { t, tString } from "@/i18n"
+import { useTranslations } from "next-intl"
 
 export function Testimonials() {
+  const t = useTranslations("testimonials")
   return (
     <section id="testimonials" className="py-20 md:py-32 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,12 +17,12 @@ export function Testimonials() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
-            {t("testimonials.badge")}
+            {t("badge")}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-            {t("testimonials.title")}
+            {t("title")}
           </h2>
-          <p className="text-black/80">{t("testimonials.description")}</p>
+          <p className="text-black/80">{t("description")}</p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -39,7 +40,7 @@ export function Testimonials() {
                     <div className="mr-4">
                       <Image
                         src={`/placeholder.svg?height=60&width=60&query=professional headshot ${index}`}
-                        alt={tString(`testimonials.testimonial${index}.name`)}
+                        alt={t(`testimonial${index}.name`)}
                         width={60}
                         height={60}
                         className="rounded-full"
@@ -47,10 +48,10 @@ export function Testimonials() {
                     </div>
                     <div>
                       <h3 className="text-lg font-bold text-black">
-                        {t(`testimonials.testimonial${index}.name`)}
+                        {t(`testimonial${index}.name`)}
                       </h3>
                       <p className="text-sm text-black/70">
-                        {t(`testimonials.testimonial${index}.position`)}
+                        {t(`testimonial${index}.position`)}
                       </p>
                     </div>
                   </div>
@@ -63,7 +64,7 @@ export function Testimonials() {
                     ))}
                   </div>
                   <p className="text-black/80 italic">
-                    &quot;{t(`testimonials.testimonial${index}.quote`)}&quot;
+                    &quot;{t(`testimonial${index}.quote`)}&quot;
                   </p>
                 </CardContent>
               </Card>
