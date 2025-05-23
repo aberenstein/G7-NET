@@ -9,8 +9,8 @@ const workSans = Work_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Lading Page - G7NET",
-  description: "Lading Page - G7NET",
+  title: "G7Net",
+  description: "G7Net",
 }
 
 export default async function RootLayout({
