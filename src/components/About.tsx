@@ -84,7 +84,7 @@ export function About() {
           </div>
 
           {/* Third Member */}
-          <div className="flex flex-col space-y-4">
+{/*           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
                 src={"/team-member.png"}
@@ -118,9 +118,9 @@ export function About() {
               </div>
             </div>
           </div>
-
+ */}
           {/* Fourth Member */}
-          <div className="flex flex-col space-y-4">
+{/*           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
                 src={"/team-member.png"}
@@ -154,7 +154,7 @@ export function About() {
               </div>
             </div>
           </div>
-        </div>
+ */}        </div>
       </div>
     </section>
   )
