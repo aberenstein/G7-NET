@@ -47,7 +47,7 @@
       "name": "FEDERICO DIAZ",
       "image": "/team-member.png",
       "linkedin": "https://www.linkedin.com/in/juanpablogonzalez/",
-      "description": "En tant que VP de l’Innovation, Federico a dirigé des projets technologiques majeurs et développé des partenariats stratégiques en Amérique latine."
+      "description": "En tant que VP de l'Innovation, Federico a dirigé des projets technologiques majeurs et développé des partenariats stratégiques en Amérique latine."
     }
   },
   "services": {
@@ -120,51 +120,27 @@
     },
     "industry2": {
       "title": "Technologies intelligentes pour les villes",
-      "description": "Identifiez les opportunités dans les plateformes IoT et les technologies urbaines intelligentes, surmontez les obstacles régionaux à l’adoption et développez des stratégies personnalisées pour positionner votre solution dans l’écosystème de gestion des villes."
+      "description": "Identifiez les opportunités dans les plateformes IoT et les technologies urbaines intelligentes, surmontez les obstacles régionaux à l'adoption et développez des stratégies personnalisées pour positionner votre solution dans l'écosystème de gestion des villes."
     },
     "industry3": {
       "title": "Énergie et ressources",
-      "description": "Explorez le potentiel de vos technologies dans les secteurs des énergies renouvelables, du pétrole et du gaz, et de l’exploitation minière, en définissant des stratégies d’entrée sur le marché adaptées aux exigences réglementaires, aux besoins d’efficacité et aux enjeux de durabilité."
+      "description": "Explorez le potentiel de vos technologies dans les secteurs des énergies renouvelables, du pétrole et du gaz, et de l'exploitation minière, en définissant des stratégies d'entrée sur le marché adaptées aux exigences réglementaires, aux besoins d'efficacité et aux enjeux de durabilité."
     },
     "industry4": {
       "title": "Gouvernement et villes intelligentes",
-      "description": "Évaluez les opportunités dans les infrastructures publiques, l’e-gouvernement et les technologies urbaines. Développez des stratégies de localisation, respectez les normes d’acquisition et positionnez votre solution pour un impact dans le secteur public."
+      "description": "Évaluez les opportunités dans les infrastructures publiques, l'e-gouvernement et les technologies urbaines. Développez des stratégies de localisation, respectez les normes d'acquisition et positionnez votre solution pour un impact dans le secteur public."
     }
   },
-  "testimonials": {
-    "badge": "Témoignages",
-    "title": "Ce que disent nos clients",
-    "description": "Des entreprises du monde entier nous font confiance pour développer leurs solutions technologiques. Voici ce qu'elles disent de notre collaboration.",
-    "testimonial1": {
-      "name": "Carlos Rodríguez",
-      "position": "PDG, FinTech Solutions",
-      "quote": "L'équipe de TechSolutions a parfaitement compris nos besoins et a développé une plateforme qui a dépassé nos attentes. Leur professionnalisme et leur qualité technique sont exceptionnels."
-    },
-    "testimonial2": {
-      "name": "Laura Martínez",
-      "position": "CTO, E-commerce Global",
-      "quote": "Travailler avec TechSolutions a été une expérience extraordinaire. Leur capacité à s'adapter aux changements et à livrer des solutions de haute qualité dans des délais serrés est impressionnante."
-    },
-    "testimonial3": {
-      "name": "Miguel Sánchez",
-      "position": "Directeur de l'innovation, HealthTech",
-      "quote": "L'application mobile développée par TechSolutions a transformé la façon dont nos patients interagissent avec nos services. Un travail exceptionnel."
-    },
-    "testimonial4": {
-      "name": "Ana González",
-      "position": "Fondatrice, EdTech Startup",
-      "quote": "En tant que startup, nous avions besoin d'un partenaire technologique qui comprenne nos limites et notre vision. TechSolutions a été ce partenaire idéal, nous aidant à croître rapidement."
-    },
-    "testimonial5": {
-      "name": "Roberto Fernández",
-      "position": "COO, Logistique Internationale",
-      "quote": "La plateforme de gestion logistique développée par TechSolutions a optimisé nos processus et réduit considérablement les coûts. Hautement recommandé."
-    },
-    "testimonial6": {
-      "name": "Sofía López",
-      "position": "CMO, Retail Innovation",
-      "quote": "L'expérience utilisateur de notre nouveau site web est exceptionnelle. L'équipe de TechSolutions comprend vraiment comment transformer les visiteurs en clients."
-    }
+  "news": {
+    "badge": "Actualités",
+    "title": "Dernières actualités et mises à jour",
+    "description": "Restez à jour avec les dernières nouvelles, événements et mises à jour de notre entreprise. Découvrez comment nous innovons et transformons le paysage technologique.",
+    "highlight": "Innovation continue",
+    "paragraph1": "Chez TechSolutions, nous innovons constamment et développons de nouvelles solutions technologiques pour aider nos clients à atteindre leurs objectifs commerciaux.",
+    "paragraph2": "Notre équipe d'experts travaille sans relâche pour rester à la pointe des dernières tendances et technologies, garantissant que nos solutions sont toujours les plus avancées et efficaces du marché.",
+    "cta": "Voir toutes les actualités",
+    "date": "Mai 2025",
+    "category": "Innovation Technologique"
   },
   "contact": {
     "badge": "Contact",

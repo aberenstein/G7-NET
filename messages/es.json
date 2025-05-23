@@ -132,40 +132,16 @@
       "description": "Posicione sus soluciones en proyectos de infraestructura pública y ciudades inteligentes a través de un acceso específico y apoyo al cumplimiento."
     }
   },
-  "testimonials": {
-    "badge": "Testimonios",
-    "title": "Lo que dicen nuestros clientes",
-    "description": "Empresas de todo el mundo confían en nosotros para desarrollar sus soluciones tecnológicas. Esto es lo que dicen sobre nuestra colaboración.",
-    "testimonial1": {
-      "name": "Carlos Rodríguez",
-      "position": "CEO, FinTech Solutions",
-      "quote": "El equipo de TechSolutions entendió perfectamente nuestras necesidades y desarrolló una plataforma que superó nuestras expectativas. Su profesionalismo y calidad técnica son excepcionales."
-    },
-    "testimonial2": {
-      "name": "Laura Martínez",
-      "position": "CTO, E-commerce Global",
-      "quote": "Trabajar con TechSolutions ha sido una experiencia extraordinaria. Su capacidad para adaptarse a cambios y entregar soluciones de alta calidad en plazos ajustados es impresionante."
-    },
-    "testimonial3": {
-      "name": "Miguel Sánchez",
-      "position": "Director de Innovación, HealthTech",
-      "quote": "La aplicación móvil desarrollada por TechSolutions ha transformado la forma en que nuestros pacientes interactúan con nuestros servicios. Un trabajo excepcional."
-    },
-    "testimonial4": {
-      "name": "Ana González",
-      "position": "Fundadora, EdTech Startup",
-      "quote": "Como startup, necesitábamos un socio tecnológico que entendiera nuestras limitaciones y visión. TechSolutions ha sido ese socio ideal, ayudándonos a crecer rápidamente."
-    },
-    "testimonial5": {
-      "name": "Roberto Fernández",
-      "position": "COO, Logística Internacional",
-      "quote": "La plataforma de gestión logística desarrollada por TechSolutions ha optimizado nuestros procesos y reducido costos significativamente. Altamente recomendados."
-    },
-    "testimonial6": {
-      "name": "Sofía López",
-      "position": "CMO, Retail Innovation",
-      "quote": "La experiencia de usuario de nuestra nueva web es excepcional. El equipo de TechSolutions realmente entiende cómo convertir visitantes en clientes."
-    }
+  "news": {
+    "badge": "Novedades",
+    "title": "Últimas novedades y actualizaciones",
+    "description": "Mantente al día con las últimas noticias, eventos y actualizaciones de nuestra empresa. Descubre cómo estamos innovando y transformando el panorama tecnológico.",
+    "highlight": "Innovación continua",
+    "paragraph1": "En TechSolutions estamos constantemente innovando y desarrollando nuevas soluciones tecnológicas para ayudar a nuestros clientes a alcanzar sus objetivos de negocio.",
+    "paragraph2": "Nuestro equipo de expertos trabaja incansablemente para mantenerse a la vanguardia de las últimas tendencias y tecnologías, asegurando que nuestras soluciones sean siempre las más avanzadas y eficientes del mercado.",
+    "cta": "Ver todas las novedades",
+    "date": "Mayo 2025",
+    "category": "Innovación Tecnológica"
   },
   "contact": {
     "badge": "Contacto",
