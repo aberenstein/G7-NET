@@ -16,7 +16,7 @@ export function Footer() {
   return (
     <footer className="bg-black text-white py-12 md:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 justify-items-center">
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <Image src="/logo.png" alt="G7NET" width={100} height={100} />
@@ -57,21 +57,6 @@ export function Footer() {
               ))}
             </ul>
           </div>
-          {/* <div>
-            <h3 className="text-lg font-bold mb-6">{t("services.title")}</h3>
-            <ul className="space-y-3">
-              {[1, 2, 3, 4, 5].map((index) => (
-                <li key={index}>
-                  <Link
-                    href="#"
-                    className="text-white/70 hover:text-[#48b4e8] transition-colors"
-                  >
-                    {t(`services.service${index}`)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div> */}
           <div>
             <h3 className="text-lg font-bold mb-6">{t("contact.title")}</h3>
             <ul className="space-y-3">
