@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { Linkedin } from "lucide-react"
 import { useTranslations } from "next-intl"
@@ -23,22 +25,24 @@ export function About() {
           </p>
         </div>
 
-        <div className="space-y-20">
-          <div className="grid md:grid-cols-[280px_1fr] gap-8 items-start">
-            <div className="w-[280px] h-[350px] relative">
+        {/* Modified team members section to use 2 columns */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
+          {/* First Member */}
+          <div className="flex flex-col space-y-4">
+            <div className="w-full h-[350px] relative">
               <Image
                 src={"/team-member.png"}
                 alt={"Team Member"}
                 fill
-                sizes="280px"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="grayscale object-cover object-center"
               />
             </div>
             <div>
-              <h3 className="text-2xl font-medium text-[#48b4e8] mb-6">
+              <h3 className="text-2xl font-medium text-[#48b4e8] mb-2">
                 {t("firstMember.name")}
               </h3>
-              <div className="space-y-4">
+              <div>
                 <p className="text-black/80">{t("firstMember.description")}</p>
               </div>
               <div className="mt-4">
@@ -51,26 +55,99 @@ export function About() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-[280px_1fr] gap-8 items-start">
-            <div className="w-[280px] h-[350px] relative">
+          {/* Second Member */}
+          <div className="flex flex-col space-y-4">
+            <div className="w-full h-[350px] relative">
               <Image
                 src={"/team-member.png"}
                 alt={"Team Member"}
                 fill
-                sizes="280px"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="grayscale object-cover object-center"
               />
             </div>
             <div>
-              <h3 className="text-2xl font-medium text-[#48b4e8] mb-6">
+              <h3 className="text-2xl font-medium text-[#48b4e8] mb-2">
                 {t("secondMember.name")}
               </h3>
-              <div className="space-y-4">
+              <div>
                 <p className="text-black/80">{t("secondMember.description")}</p>
               </div>
               <div className="mt-4">
                 {t("secondMember.linkedin") && (
                   <Link href={t("secondMember.linkedin")} aria-label="LinkedIn">
+                    <Linkedin className="h-5 w-5 text-gray-600" />
+                  </Link>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* Third Member */}
+          <div className="flex flex-col space-y-4">
+            <div className="w-full h-[350px] relative">
+              <Image
+                src={"/team-member.png"}
+                alt={"Team Member"}
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="grayscale object-cover object-center"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl font-medium text-[#48b4e8] mb-2">
+                {t("thirdMember.name") || t("secondMember.name")}
+              </h3>
+              <div>
+                <p className="text-black/80">
+                  {t("thirdMember.description") ||
+                    t("secondMember.description")}
+                </p>
+              </div>
+              <div className="mt-4">
+                {(t("thirdMember.linkedin") || t("secondMember.linkedin")) && (
+                  <Link
+                    href={
+                      t("thirdMember.linkedin") || t("secondMember.linkedin")
+                    }
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin className="h-5 w-5 text-gray-600" />
+                  </Link>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* Fourth Member */}
+          <div className="flex flex-col space-y-4">
+            <div className="w-full h-[350px] relative">
+              <Image
+                src={"/team-member.png"}
+                alt={"Team Member"}
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="grayscale object-cover object-center"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl font-medium text-[#48b4e8] mb-2">
+                {t("fourthMember.name") || t("secondMember.name")}
+              </h3>
+              <div>
+                <p className="text-black/80">
+                  {t("fourthMember.description") ||
+                    t("secondMember.description")}
+                </p>
+              </div>
+              <div className="mt-4">
+                {(t("fourthMember.linkedin") || t("secondMember.linkedin")) && (
+                  <Link
+                    href={
+                      t("fourthMember.linkedin") || t("secondMember.linkedin")
+                    }
+                    aria-label="LinkedIn"
+                  >
                     <Linkedin className="h-5 w-5 text-gray-600" />
                   </Link>
                 )}

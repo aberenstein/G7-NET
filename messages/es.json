@@ -30,13 +30,25 @@
       "name": "GUILLERMO RIVABEN",
       "image": "/team-member.png",
       "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
-      "description": "Como CEO de La Nación Group, Guillermo lideró la transformación digital y cultural de una empresa de medios tradicional, rompiendo un paradigma. Antes de eso, fue Gerente General en Telecom Personal y lideró su crecimiento en un mercado revolucionado por los smartphones y el internet móvil. La posicionó como líder en ingresos y Ebitda. Previamente, como CMO, gestionó el desarrollo del primer servicio 3G del país y fue clave en el startup de Telecom Personal en 1994."
+      "description": "Guillermo lideró la transformación digital de La Nación Group, modernizando una empresa tradicional de medios. Antes, como CEO y CMO en Telecom Personal, impulsó su crecimiento con el lanzamiento del primer servicio 3G del país y la consolidó como líder en ingresos y rentabilidad."
     },
     "secondMember": {
       "name": "IGNACIO NORES",
       "image": "/team-member.png",
       "linkedin": "https://www.linkedin.com/in/ignacionores/",
-      "description": "Como VP del mercado de consumo en Entel Perú, fue clave en el lanzamiento de la operación. Lideró los equipos de ventas, marketing y operaciones, logrando un crecimiento de ingresos de 4X en 4 años. Antes de eso, como CMO de Telecom Personal, tuvo la asertividad y creatividad para inspirar al equipo a romper continuamente las barreras del marketing tradicional y encontrar nuevas formas de competir contra jugadores regionales. Lideró los servicios de valor agregado y la explosión de datos, logrando un referente regional en crecimiento de ingresos por datos. Previamente, lanzó el negocio B2B como parte del equipo fundador de Despegar.com."
+      "description": "Como VP en Entel Perú, lideró el lanzamiento y crecimiento del negocio de consumo, cuadruplicando ingresos en 4 años. Antes, como CMO en Telecom Personal, impulsó la innovación en marketing y el liderazgo regional en ingresos por datos. También fue parte del equipo fundador de Despegar.com, donde lanzó el negocio B2B."
+    },
+    "thirdMember": {
+      "name": "JUAN PABLO GONZALEZ",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/juanpablogonzalez/",
+      "description": "Como CMO de Telecom Personal, Juan Pablo lideró el desarrollo del primer servicio 3G del país y fue clave en el startup de Telecom Personal en 1994."
+    },
+    "fourthMember": {
+      "name": "JUAN PABLO GONZALEZ",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/juanpablogonzalez/",
+      "description": "Como CMO de Telecom Personal, Juan Pablo lideró el desarrollo del primer servicio 3G del país y fue clave en el startup de Telecom Personal en 1994."
     }
   },
   "services": {

@@ -1,13 +1,4 @@
-import {
-  Building2,
-  Factory,
-  ShoppingCart,
-  Heart,
-  GraduationCap,
-  Plane,
-  Car,
-  Banknote,
-} from "lucide-react"
+import { Building2, Factory, ShoppingCart, Heart } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 export function Industries() {

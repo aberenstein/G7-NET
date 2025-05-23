@@ -29,13 +29,25 @@
       "name": "GUILLERMO RIVABEN",
       "image": "/team-member.png",
       "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
-      "description": "Comme PDG de La Nación Group, Guillermo a dirigé la transformation numérique et culturelle d'une entreprise de médias traditionnels, cassant un paradigme. Avant cela, il était Directeur Général de Telecom Personal et a mené son développement dans un marché transformé par les smartphones et internet mobile. Il a été un leader dans les revenus et l'Ebitda. Précédemment, comme CMO, il a géré le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
+      "description": "Guillermo a mené la transformation numérique de La Nación Group, modernisant une entreprise de médias traditionnels. Précédemment, comme PDG et CMO de Telecom Personal, il a développé le premier service 3G du pays et consolidé sa position comme leader dans les revenus et la rentabilité."
     },
     "secondMember": {
       "name": "GUILLERMO RIVABEN",
       "image": "/team-member.png",
       "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
       "description": "Comme PDG de La Nación Group, Guillermo a dirigé la transformation numérique et culturelle d'une entreprise de médias traditionnels, cassant un paradigme. Avant cela, il était Directeur Général de Telecom Personal et a mené son développement dans un marché transformé par les smartphones et internet mobile. Il a été un leader dans les revenus et l'Ebitda. Précédemment, comme CMO, il a géré le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
+    },
+    "thirdMember": {
+      "name": "JUAN PABLO GONZALEZ",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/juanpablogonzalez/",
+      "description": "Comme CMO de Telecom Personal, Juan Pablo a mené le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
+    },
+    "fourthMember": {
+      "name": "JUAN PABLO GONZALEZ",
+      "image": "/team-member.png",
+      "linkedin": "https://www.linkedin.com/in/juanpablogonzalez/",
+      "description": "Comme CMO de Telecom Personal, Juan Pablo a mené le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
     }
   },
   "services": {
