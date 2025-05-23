@@ -9,6 +9,7 @@ import { Technology } from "@/components/Technology"
 import { Industries } from "@/components/Industries"
 import { Contact } from "@/components/Contact"
 import { Footer } from "@/components/Footer"
+import { NewsSection } from "@/components/Novedades"
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false)
@@ -33,6 +34,7 @@ export default function Home() {
       <Services />
       <Technology />
       <Industries />
+      <NewsSection />
       <About />
       <Contact />
       <Footer />

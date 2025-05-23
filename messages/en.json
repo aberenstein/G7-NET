@@ -131,40 +131,16 @@
       "description": "Position your solutions in public infrastructure and smart city projects through targeted entry and compliance support."
     }
   },
-  "testimonials": {
-    "badge": "Testimonials",
-    "title": "What our clients say",
-    "description": "Companies from all over the world trust us to develop their technological solutions. This is what they say about our collaboration.",
-    "testimonial1": {
-      "name": "Carlos Rodríguez",
-      "position": "CEO, FinTech Solutions",
-      "quote": "The TechSolutions team perfectly understood our needs and developed a platform that exceeded our expectations. Their professionalism and technical quality are exceptional."
-    },
-    "testimonial2": {
-      "name": "Laura Martínez",
-      "position": "CTO, E-commerce Global",
-      "quote": "Working with TechSolutions has been an extraordinary experience. Their ability to adapt to changes and deliver high-quality solutions on tight deadlines is impressive."
-    },
-    "testimonial3": {
-      "name": "Miguel Sánchez",
-      "position": "Innovation Director, HealthTech",
-      "quote": "The mobile application developed by TechSolutions has transformed the way our patients interact with our services. Exceptional work."
-    },
-    "testimonial4": {
-      "name": "Ana González",
-      "position": "Founder, EdTech Startup",
-      "quote": "As a startup, we needed a technology partner who understood our limitations and vision. TechSolutions has been that ideal partner, helping us grow quickly."
-    },
-    "testimonial5": {
-      "name": "Roberto Fernández",
-      "position": "COO, International Logistics",
-      "quote": "The logistics management platform developed by TechSolutions has optimized our processes and significantly reduced costs. Highly recommended."
-    },
-    "testimonial6": {
-      "name": "Sofía López",
-      "position": "CMO, Retail Innovation",
-      "quote": "The user experience of our new website is exceptional. The TechSolutions team really understands how to turn visitors into customers."
-    }
+  "news": {
+    "badge": "News",
+    "title": "Latest news and updates",
+    "description": "Stay up to date with the latest news, events and updates from our company. Discover how we are innovating and transforming the technological landscape.",
+    "highlight": "Continuous innovation",
+    "paragraph1": "At G7Net, we are constantly innovating and developing new technological solutions to help our clients achieve their business goals.",
+    "paragraph2": "Our expert team works tirelessly to stay at the forefront of the latest trends and technologies, ensuring that our solutions are always the most advanced and efficient on the market.",
+    "cta": "See all news",
+    "date": "May 2025",
+    "category": "Technological Innovation"
   },
   "contact": {
     "badge": "Contact",
