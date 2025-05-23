@@ -33,9 +33,9 @@ export function About() {
               <Image
                 src={"/Web-Guillermos-Rivaben-1-uai-720x960.jpg"}
                 alt={"Team Member"}
-                width={720}
-                height={960}
-                className="grayscale object-cover object-center"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="grayscale object-contain object-center"
               />
             </div>
             <div>
@@ -61,9 +61,9 @@ export function About() {
               <Image
                 src={"/Web-Ignacio-Nores-1-uai-720x960.jpg"}
                 alt={"Team Member"}
-                width={720}
-                height={960}
-                className="grayscale object-cover object-center"
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="grayscale object-contain object-center"
               />
             </div>
             <div>
