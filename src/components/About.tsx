@@ -9,7 +9,7 @@ export function About() {
   const t = useTranslations("about")
   return (
     <section id="about" className="py-20 md:py-32">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl bg-[url('/hero-image.png')] bg-cover bg-center">
         <div className="text-center mb-16">
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("badge")}

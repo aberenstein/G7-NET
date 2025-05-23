@@ -7,7 +7,7 @@ export function Technology() {
   const t = useTranslations("technology")
   return (
     <section id="technology" className="py-20 md:py-32">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-[url('/hero-image.png')] bg-cover bg-center">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("badge")}

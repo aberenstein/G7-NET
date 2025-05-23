@@ -11,7 +11,7 @@ export function NewsSection() {
 
   return (
     <section id="news" className="py-20 md:py-32">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-[url('/hero-image.png')] bg-cover bg-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
