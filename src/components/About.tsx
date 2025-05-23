@@ -12,10 +12,15 @@ export function About() {
           <div className="inline-block mb-4 px-4 py-1 rounded-full bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium">
             {t("badge")}
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-black uppercase mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-black uppercase mb-3">
             {t("title")}
           </h2>
-          <p className="text-black/80 max-w-3xl mx-auto">{t("description1")}</p>
+          <p className="text-black/80 max-w-3xl text-left mx-auto mb-2 max-md:text-center">
+            {t("description1")}
+          </p>
+          <p className="text-black/80 max-w-3xl text-left mx-auto max-md:text-center">
+            {t("description2")}
+          </p>
         </div>
 
         <div className="space-y-20">

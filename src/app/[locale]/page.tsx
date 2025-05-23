@@ -31,11 +31,11 @@ export default function Home() {
     <div className="relative min-h-screen bg-white overflow-hidden">
       <Navbar scrolled={scrolled} />
       <Hero />
-      <About />
       <Services />
       <Technology />
       <Industries />
       <Testimonials />
+      <About />
       <Contact />
       <Footer />
     </div>

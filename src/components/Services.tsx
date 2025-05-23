@@ -27,7 +27,7 @@ export function Services() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[1, 2, 3, 4, 5, 6].map((index) => (
+          {[1, 2, 3, 4, 5].map((index) => (
             <div key={index}>
               <Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
                 <CardContent className="p-6">

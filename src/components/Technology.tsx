@@ -49,9 +49,11 @@ export function Technology() {
                 <ul className="space-y-3">
                   {[1, 2, 3, 4].map((item) => (
                     <li key={item} className="flex items-center">
-                      <div className="w-6 h-6 rounded-full bg-[#48b4e8]/20 flex items-center justify-center mr-3">
-                        <Star className="h-3 w-3 text-[#48b4e8]" />
-                      </div>
+                      {t(`web.item${item}`) !== "" && (
+                        <div className="w-6 h-6 rounded-full bg-[#48b4e8]/20 flex items-center justify-center mr-3">
+                          <Star className="h-3 w-3 text-[#48b4e8]" />
+                        </div>
+                      )}
                       <span className="text-black">{t(`web.item${item}`)}</span>
                     </li>
                   ))}
@@ -60,11 +62,11 @@ export function Technology() {
               <div className="relative">
                 <div className="absolute inset-0 bg-[#48b4e8]/5 rounded-lg transform rotate-3"></div>
                 <Image
-                  src="/blog-covers/blog-demo-2.png"
+                  src="/cloud-computing-technologies.png"
                   alt="Web Technologies"
                   width={500}
-                  height={400}
-                  className="relative z-10 rounded-lg shadow-lg"
+                  height={500}
+                  className="relative z-10  w-full rounded-lg shadow-lg"
                 />
               </div>
             </div>
@@ -92,11 +94,11 @@ export function Technology() {
               <div className="relative">
                 <div className="absolute inset-0 bg-[#48b4e8]/5 rounded-lg transform -rotate-3"></div>
                 <Image
-                  src="/mobile-app-development.png"
+                  src="/cloud-computing-technologies.png"
                   alt="Mobile Technologies"
                   width={500}
-                  height={400}
-                  className="relative z-10 rounded-lg shadow-lg"
+                  height={500}
+                  className="relative z-10 w-full rounded-lg shadow-lg"
                 />
               </div>
             </div>
@@ -127,7 +129,7 @@ export function Technology() {
                   src="/cloud-computing-technologies.png"
                   alt="Cloud Technologies"
                   width={500}
-                  height={400}
+                  height={500}
                   className="relative z-10 rounded-lg shadow-lg"
                 />
               </div>

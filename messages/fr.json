@@ -13,19 +13,18 @@
   "hero": {
     "badge": "Innovation technologique",
     "title": {
-      "part1": "Des solutions numériques",
-      "highlight": "innovantes",
-      "part2": "pour votre entreprise"
+      "part1": "Conectant les entreprises",
+      "highlight": "technologiques",
+      "part2": "aux marchés latino-américains"
     },
-    "subtitle": "Nous créons des solutions technologiques sur mesure qui stimulent la croissance et la transformation numérique de votre entreprise.",
-    "primaryCta": "Commencer maintenant",
-    "secondaryCta": "En savoir plus"
+    "subtitle": "Avec plus de 30 ans d'expérience exécutive dans la région, G7Net fournit des services de conseil complets pour aider les entreprises technologiques européennes et américaines à se développer avec succès en Argentine et en Amérique du Sud.",
+    "primaryCta": "Commencer maintenant"
   },
   "about": {
     "badge": "À propos de nous",
     "title": "Notre équipe",
-    "description1": "Nous sommes une équipe de professionnels passionnés par la technologie et l'innovation. Nous sommes spécialisés dans le développement de solutions numériques sur mesure qui aident nos clients à atteindre leurs objectifs commerciaux.",
-    "description2": "Avec des années d'expérience dans le secteur, nous avons travaillé avec des entreprises de toutes tailles et de tous secteurs, des startups aux grandes entreprises, en offrant des solutions technologiques de haute qualité.",
+    "description1": "G7Net S.A. est une entreprise de conseil spécialisée, dirigée par des anciens vice-présidents régionaux avec plus de trente ans d'expérience dans le secteur technologique en Amérique latine. Notre profonde compréhension des marchés locaux, nos réseaux d'industrie étendus et notre solide parcours nous font le partenaire idéal pour les entreprises technologiques qui cherchent à établir ou à étendre leur présence en Argentine et en Amérique du Sud.",
+    "description2": "Nos consultants apportent une expertise de niveau exécutif dans les télécommunications, les solutions de connectivité, l'IoT, l'énergie renouvelable et les technologies émergentes, vous offrant une orientation stratégique et un support pratique à chaque étape de votre entrée sur le marché et de votre croissance.",
     "firstMember": {
       "name": "GUILLERMO RIVABEN",
       "image": "/team-member.png",
@@ -42,31 +41,27 @@
   "services": {
     "badge": "Nos services",
     "title": "Des solutions numériques complètes pour votre entreprise",
-    "description": "Nous offrons une large gamme de services technologiques conçus pour stimuler la croissance et la transformation numérique de votre entreprise.",
+    "description": "Nous offrons des services de conseil complets pour garantir votre expansion réussie sur les marchés latino-américains.",
     "learnMore": "En savoir plus",
     "service1": {
-      "title": "Développement Web",
-      "description": "Nous créons des sites web et des applications web sur mesure, optimisés pour offrir la meilleure expérience utilisateur."
+      "title": "Évaluation du Marché et Analyse des Opportunités",
+      "description": "Nous évaluons le potentiel du marché pour vos solutions technologiques. Nous identifions des opportunités spécifiques et des défis sectoriels. Nous analysons le paysage concurrentiel et développons des stratégies de positionnement différenciées."
     },
     "service2": {
-      "title": "Développement mobile",
-      "description": "Nous développons des applications mobiles natives et hybrides pour iOS et Android qui connectent avec vos utilisateurs."
+      "title": "Planification Stratégique et Stratégie d'Entrée sur le Marché",
+      "description": "Nous développons des stratégies d'entrée sur le marché personnalisées pour chaque région. Nous créons des plans d'affaires régionaux et des modèles de tarification et de positionnement optimisés pour les marchés locaux."
     },
     "service3": {
-      "title": "Conseil IT",
-      "description": "Conseil stratégique pour optimiser vos processus technologiques et maximiser le retour sur investissement."
+      "title": "Développement des Affaires et Réseautage",
+      "description": "Nous organisons des rencontres avec des clients et partenaires potentiels, facilitons les introductions auprès de leaders clés et représentons votre entreprise lors d'événements de l'industrie et de réunions de chambres."
     },
     "service4": {
-      "title": "Conception UX/UI",
-      "description": "Nous concevons des interfaces intuitives et attrayantes qui améliorent l'expérience utilisateur et augmentent la conversion."
+      "title": "Marketing et Communication",
+      "description": "Nous créons des campagnes de marketing localisées, élaborons des messages et du contenu spécifiques pour chaque région et supervisons la publicité et la couverture médiatique pour accroître votre marque sur les marchés locaux."
     },
     "service5": {
-      "title": "Solutions Cloud",
-      "description": "Nous mettons en œuvre des solutions cloud qui optimisent vos ressources et améliorent l'évolutivité de votre entreprise."
-    },
-    "service6": {
-      "title": "Équipes dédiées",
-      "description": "Nous formons des équipes de développement sur mesure qui s'intègrent à votre entreprise pour travailler sur vos projets."
+      "title": "Soutien Opérationnel",
+      "description": "Nous assistons avec du personnel technique et des équipes de travail, fournissons une infrastructure technique locale et guidons les processus de conformité et de certification."
     }
   },
   "technology": {
@@ -74,33 +69,33 @@
     "title": "Des technologies de pointe pour des solutions innovantes",
     "description": "Nous utilisons les technologies les plus avancées et les plus efficaces pour développer des solutions numériques qui stimulent la croissance de votre entreprise.",
     "tabs": {
-      "web": "Développement Web",
-      "mobile": "Développement mobile",
-      "cloud": "Cloud & DevOps"
+      "web": "Infrastructure & Connectivity",
+      "mobile": "Smart Technologies",
+      "cloud": "Energy & Computing"
     },
     "web": {
-      "title": "Développement Web de nouvelle génération",
+      "title": "Infrastructure & Connectivity",
       "description": "Nous utilisons des frameworks et des technologies modernes pour créer des applications web rapides, sécurisées et évolutives.",
-      "item1": "React, Next.js, Vue.js",
-      "item2": "Node.js, Express, NestJS",
-      "item3": "GraphQL, REST APIs",
-      "item4": "PostgreSQL, MongoDB, MySQL"
+      "item1": "Infrastructure de télécommunications",
+      "item2": "Solutions de connectivité",
+      "item3": "Réseaux LTE privés",
+      "item4": "Images et communications par satellite"
     },
     "mobile": {
-      "title": "Développement mobile multiplateforme",
-      "description": "Nous créons des applications mobiles natives et hybrides qui offrent une expérience utilisateur exceptionnelle.",
-      "item1": "React Native, Flutter",
-      "item2": "Swift, Kotlin",
-      "item3": "Firebase, AWS Amplify",
-      "item4": "Intégration avec APIs et services"
+      "title": "Smart Technologies",
+      "description": "Nous nous concentrons sur le développement d'écosystèmes urbains intelligents, industriels et numériques plus efficaces et interconnectés.",
+      "item1": "Internet des objets (IoT)",
+      "item2": "Technologies intelligentes de villes",
+      "item3": "Applications d'intelligence artificielle",
+      "item4": "Images et communications par satellite"
     },
     "cloud": {
-      "title": "Solutions Cloud et DevOps",
-      "description": "Nous mettons en place des infrastructures cloud sécurisées, évolutives et efficaces pour vos applications.",
-      "item1": "AWS, Google Cloud, Azure",
-      "item2": "Docker, Kubernetes",
-      "item3": "CI/CD, Automatisation",
-      "item4": "Surveillance et sécurité"
+      "title": "Energy & Computing",
+      "description": "Nous mettons en place des infrastructures de cloud sécurisées, évolutives et efficaces pour vos applications.",
+      "item1": "Cloud Computing",
+      "item2": "Technologies d'énergie renouvelable",
+      "item3": "Réseaux LTE privés",
+      "item4": "Technologies intelligentes de villes"
     }
   },
   "industries": {
@@ -108,36 +103,20 @@
     "title": "Des solutions spécialisées pour divers secteurs",
     "description": "Nous avons de l'expérience avec des entreprises de différents secteurs, en adaptant nos solutions aux besoins spécifiques de chaque secteur.",
     "industry1": {
-      "title": "Fintech",
-      "description": "Des solutions sécurisées et évolutives pour le secteur financier"
+      "title": "Télécommunications et fournisseurs de services",
+      "description": "Évaluez le potentiel du marché pour des solutions de connectivité avancées, relevez les défis liés au déploiement des infrastructures et analysez la concurrence pour positionner votre technologie auprès des opérateurs télécoms, des FAI et des fournisseurs de satellites."
     },
     "industry2": {
-      "title": "E-commerce",
-      "description": "Plateformes de commerce électronique optimisées pour les ventes"
+      "title": "Technologies intelligentes pour les villes",
+      "description": "Identifiez les opportunités dans les plateformes IoT et les technologies urbaines intelligentes, surmontez les obstacles régionaux à l’adoption et développez des stratégies personnalisées pour positionner votre solution dans l’écosystème de gestion des villes."
     },
     "industry3": {
-      "title": "Santé",
-      "description": "Systèmes de gestion et télémédecine pour le secteur de la santé"
+      "title": "Énergie et ressources",
+      "description": "Explorez le potentiel de vos technologies dans les secteurs des énergies renouvelables, du pétrole et du gaz, et de l’exploitation minière, en définissant des stratégies d’entrée sur le marché adaptées aux exigences réglementaires, aux besoins d’efficacité et aux enjeux de durabilité."
     },
     "industry4": {
-      "title": "Éducation",
-      "description": "Plateformes d'e-learning et de gestion éducative"
-    },
-    "industry5": {
-      "title": "Logistique",
-      "description": "Systèmes de suivi et d'optimisation des itinéraires"
-    },
-    "industry6": {
-      "title": "Immobilier",
-      "description": "Plateformes de gestion et de visualisation de propriétés"
-    },
-    "industry7": {
-      "title": "Tourisme",
-      "description": "Solutions pour les réservations et les expériences touristiques"
-    },
-    "industry8": {
-      "title": "Manufacture",
-      "description": "Systèmes de gestion et d'optimisation des processus"
+      "title": "Gouvernement et villes intelligentes",
+      "description": "Évaluez les opportunités dans les infrastructures publiques, l’e-gouvernement et les technologies urbaines. Développez des stratégies de localisation, respectez les normes d’acquisition et positionnez votre solution pour un impact dans le secteur public."
     }
   },
   "testimonials": {

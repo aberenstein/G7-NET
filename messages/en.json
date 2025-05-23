@@ -13,19 +13,18 @@
   "hero": {
     "badge": "Technological Innovation",
     "title": {
-      "part1": "Innovative digital",
-      "highlight": "solutions",
-      "part2": "for your business"
+      "part1": "Bridging Technology",
+      "highlight": "Companies",
+      "part2": "to Latin American Markets"
     },
-    "subtitle": "We create tailor-made technological solutions that drive the growth and digital transformation of your company.",
-    "primaryCta": "Get Started",
-    "secondaryCta": "Learn More"
+    "subtitle": "With over 30 years of executive experience in the region, G7Net provides comprehensive consulting services to help European and US technology companies successfully expand into Argentina and South America.",
+    "primaryCta": "Get Started"
   },
   "about": {
     "badge": "About Us",
     "title": "Our Team",
-    "description1": "We are a team of professionals passionate about technology and innovation. We specialize in developing custom digital solutions that help our clients achieve their business goals.",
-    "description2": "With years of experience in the sector, we have worked with companies of various sizes and industries, from startups to large corporations, offering high-quality technological solutions.",
+    "description1": "G7Net S.A. is a specialized consulting firm led by former Regional Vice Presidents with more than three decades of experience in the technology sector throughout Latin America. Our deep understanding of local markets, extensive industry networks, and proven track record make us the ideal partner for technology companies looking to establish or expand their presence in Argentina and South America.",
+    "description2": "Our consultants bring executive-level expertise in telecommunications, connectivity solutions, IoT, renewable energy, and emerging technologies, providing you with strategic guidance and practical support at every stage of your market entry and growth.",
     "firstMember": {
       "name": "GUILLERMO RIVABEN",
       "image": "/team-member.png",
@@ -42,31 +41,27 @@
   "services": {
     "badge": "Our Services",
     "title": "Comprehensive digital solutions for your business",
-    "description": "We offer a wide range of technology services designed to drive the growth and digital transformation of your company.",
+    "description": "We offer end-to-end consulting services to ensure your successful expansion into Latin American markets.",
     "learnMore": "Learn more",
     "service1": {
-      "title": "Web Development",
-      "description": "We create custom websites and web applications, optimized to offer the best user experience."
+      "title": "Market Assessment & Opportunity Analysis",
+      "description": "Assess your tech solutions market potential, identify sector-specific opportunities and challenges, and analyze the competitive landscape to craft a differentiated positioning strategy."
     },
     "service2": {
-      "title": "Mobile Development",
-      "description": "We develop native and hybrid mobile applications for iOS and Android that connect with your users."
+      "title": "Strategic Planning & Go-to-Market Strategy",
+      "description": "Develop customized market entry strategies, craft regionally tailored business plans, and design pricing and positioning models optimized for local markets."
     },
     "service3": {
-      "title": "IT Consulting",
-      "description": "Strategic advice to optimize your technological processes and maximize ROI."
+      "title": "Business Development & Networking",
+      "description": "Arrange meetings with prospective customers and partners, facilitate introductions to key decision-makers, and represent your company at industry events and chamber gatherings."
     },
     "service4": {
-      "title": "UX/UI Design",
-      "description": "We design intuitive and attractive interfaces that improve user experience and increase conversion."
+      "title": "Marketing & Communications",
+      "description": "Build localized marketing campaigns, craft region-specific messaging and content, and oversee public relations and media outreach to amplify your brand in local markets."
     },
     "service5": {
-      "title": "Cloud Solutions",
-      "description": "We implement cloud solutions that optimize your resources and improve your business scalability."
-    },
-    "service6": {
-      "title": "Dedicated Teams",
-      "description": "We form custom development teams that integrate with your company to work on your projects."
+      "title": "Operational Support",
+      "description": "Assist with technical staffing and team building, provide local technical support infrastructure, and guide regulatory compliance and certification processes."
     }
   },
   "technology": {
@@ -74,33 +69,33 @@
     "title": "Cutting-edge technologies for innovative solutions",
     "description": "We use the most advanced and efficient technologies to develop digital solutions that drive your business growth.",
     "tabs": {
-      "web": "Web Development",
-      "mobile": "Mobile Development",
-      "cloud": "Cloud & DevOps"
+      "web": "Infrastructure & Connectivity",
+      "mobile": "Smart Technologies",
+      "cloud": "Energy & Computing"
     },
     "web": {
-      "title": "Next-Generation Web Development",
-      "description": "We use modern frameworks and technologies to create fast, secure, and scalable web applications.",
-      "item1": "React, Next.js, Vue.js",
-      "item2": "Node.js, Express, NestJS",
-      "item3": "GraphQL, REST APIs",
-      "item4": "PostgreSQL, MongoDB, MySQL"
+      "title": "Infrastructure & Connectivity",
+      "description": "We implement robust and scalable network infrastructures, ensuring reliable and high-speed connectivity for your business.",
+      "item1": "Telecommunications Infrastructure",
+      "item2": "Connectivity Solutions",
+      "item3": "Private LTE Networks",
+      "item4": "Satellite Imaging & Communications"
     },
     "mobile": {
-      "title": "Cross-Platform Mobile Development",
-      "description": "We create native and hybrid mobile applications that offer an exceptional user experience.",
-      "item1": "React Native, Flutter",
-      "item2": "Swift, Kotlin",
-      "item3": "Firebase, AWS Amplify",
-      "item4": "API and service integration"
+      "title": "Smart Technologies",
+      "description": "We focus on developing smart urban ecosystems, industrial and digital ecosystems more efficient and interconnected.",
+      "item1": "Internet of Things (IoT)",
+      "item2": "Smart City Technologies",
+      "item3": "Artificial Intelligence Applications",
+      "item4": "Satellite Imaging & Communications"
     },
     "cloud": {
-      "title": "Cloud and DevOps Solutions",
+      "title": "Energy & Computing",
       "description": "We implement secure, scalable, and efficient cloud infrastructures for your applications.",
-      "item1": "AWS, Google Cloud, Azure",
-      "item2": "Docker, Kubernetes",
-      "item3": "CI/CD, Automation",
-      "item4": "Monitoring and Security"
+      "item1": "Cloud Computing",
+      "item2": "Renewable Energy Technologies",
+      "item3": "Private LTE Networks",
+      "item4": "Smart City Technologies"
     }
   },
   "industries": {
@@ -108,36 +103,20 @@
     "title": "Specialized solutions for various sectors",
     "description": "We have experience working with companies from different industries, adapting our solutions to the specific needs of each sector.",
     "industry1": {
-      "title": "Fintech",
-      "description": "Secure and scalable solutions for the financial sector"
+      "title": "Telecommunications & Service Providers",
+      "description": "Unlock market opportunities in connectivity, navigate deployment challenges, and position your tech with operators and ISPs."
     },
     "industry2": {
-      "title": "E-commerce",
-      "description": "E-commerce platforms optimized for sales"
+      "title": "AgTech",
+      "description": "Scale precision farming and IoT solutions with tailored strategies and optimized market entry."
     },
     "industry3": {
-      "title": "Health",
-      "description": "Management and telemedicine systems for the health sector"
+      "title": "Energy & Resources",
+      "description": "Tap into energy and mining sectors with localized strategies and compliant tech deployment."
     },
     "industry4": {
-      "title": "Education",
-      "description": "E-learning and educational management platforms"
-    },
-    "industry5": {
-      "title": "Logistics",
-      "description": "Tracking and route optimization systems"
-    },
-    "industry6": {
-      "title": "Real Estate",
-      "description": "Property management and visualization platforms"
-    },
-    "industry7": {
-      "title": "Tourism",
-      "description": "Solutions for reservations and tourist experiences"
-    },
-    "industry8": {
-      "title": "Manufacturing",
-      "description": "Process management and optimization systems"
+      "title": "Government & Smart Cities",
+      "description": "Position your solutions in public infrastructure and smart city projects through targeted entry and compliance support."
     }
   },
   "testimonials": {

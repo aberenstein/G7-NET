@@ -26,20 +26,13 @@ export function Hero() {
             <span className="text-[#48b4e8]">{t("title.highlight")}</span>{" "}
             {t("title.part2")}
           </h1>
-          <p className="text-lg md:text-xl text-black/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-black/80 mb-8 max-w-3xl mx-auto">
             {t("subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white px-6 py-2 text-sm">
+            <Button className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white px-6 py-2 text-sm h-11 w-44">
               {t("primaryCta")}
               <ArrowRight className="w-4 h-4 ml-2" />
-            </Button>
-            <Button
-              variant="outline"
-              className="border-black/20 text-black hover:bg-[#e7e6e6] px-6 py-2 text-sm"
-            >
-              {t("secondaryCta")}
-              <BookOpen className="w-4 h-4 ml-2" />
             </Button>
           </div>
         </motion.div>

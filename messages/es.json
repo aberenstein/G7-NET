@@ -13,19 +13,18 @@
   "hero": {
     "badge": "Innovación Tecnológica",
     "title": {
-      "part1": "Soluciones digitales",
-      "highlight": "innovadoras",
-      "part2": "para tu negocio"
+      "part1": "Conectando empresas",
+      "highlight": "tecnológicas",
+      "part2": "con los mercados latinoamericanos"
     },
-    "subtitle": "Creamos soluciones tecnológicas a medida que impulsan el crecimiento y la transformación digital de tu empresa.",
-    "primaryCta": "Comienza Ahora",
-    "secondaryCta": "Conoce Más"
+    "subtitle": "Con más de 30 años de experiencia ejecutiva en la región, G7Net brinda servicios integrales de consultoría para ayudar a empresas tecnológicas europeas y estadounidenses a expandirse con éxito en Argentina y Sudamérica.",
+    "primaryCta": "Contáctanos"
   },
   "about": {
     "badge": "Sobre Nosotros",
     "title": "Nuestro Equipo",
-    "description1": "Somos un equipo de profesionales apasionados por la tecnología y la innovación. Nos especializamos en el desarrollo de soluciones digitales a medida que ayudan a nuestros clientes a alcanzar sus objetivos de negocio.",
-    "description2": "Con años de experiencia en el sector, hemos trabajado con empresas de diversos tamaños y sectores, desde startups hasta grandes corporaciones, ofreciendo soluciones tecnológicas de alta calidad.",
+    "description1": "G7Net S.A. es una consultora especializada, liderada por exvicepresidentes regionales con más de tres décadas de experiencia en el sector tecnológico en Latinoamérica. Nuestro profundo conocimiento de los mercados locales, nuestras extensas redes de contactos en la industria y nuestra sólida trayectoria nos convierten en el socio ideal para empresas tecnológicas que buscan establecer o expandir su presencia en Argentina y Sudamérica.",
+    "description2": "Nuestros consultores aportan experiencia a nivel ejecutivo en telecomunicaciones, soluciones de conectividad, IoT, energía renovable y tecnologías emergentes, brindándole orientación estratégica y apoyo práctico en cada etapa de su ingreso al mercado y crecimiento.",
     "intro": "Los fundadores de {companyName} tienen más de 25 años de experiencia ejecutiva en la industria TMT, generando valor en grandes empresas de telecomunicaciones y medios.",
     "firstMember": {
       "name": "GUILLERMO RIVABEN",
@@ -43,31 +42,27 @@
   "services": {
     "badge": "Nuestros Servicios",
     "title": "Soluciones digitales completas para tu negocio",
-    "description": "Ofrecemos una amplia gama de servicios tecnológicos diseñados para impulsar el crecimiento y la transformación digital de tu empresa.",
+    "description": "Ofrecemos servicios de consultoría de principio a fin para garantizar su expansión exitosa en los mercados latinoamericanos.",
     "learnMore": "Saber más",
     "service1": {
-      "title": "Desarrollo Web",
-      "description": "Creamos sitios web y aplicaciones web a medida, optimizados para ofrecer la mejor experiencia de usuario."
+      "title": "Evaluación de Mercado y Análisis de Oportunidades",
+      "description": "Evaluamos el potencial del mercado para tus soluciones tecnológicas. Identificamos oportunidades específicas y desafíos sectoriales. Analizamos el escenario competitivo y desarrollamos estrategias de posicionamiento diferenciadas."
     },
     "service2": {
-      "title": "Desarrollo Móvil",
-      "description": "Desarrollamos aplicaciones móviles nativas e híbridas para iOS y Android que conectan con tus usuarios."
+      "title": "Planificación Estratégica y Estrategia de Entrada al Mercado",
+      "description": "Desarrollamos estrategias de entrada al mercado personalizadas para cada región. Creamos planes de negocio regionales y modelos de precios y posicionamiento optimizados para los mercados locales."
     },
     "service3": {
-      "title": "Consultoría IT",
-      "description": "Asesoramiento estratégico para optimizar tus procesos tecnológicos y maximizar el retorno de inversión."
+      "title": "Desarrollo de Negocios y Networking",
+      "description": "Organizamos encuentros con posibles clientes y socios, facilitamos introducciones a líderes clave y representamos su empresa en eventos de la industria y reuniones de cámaras."
     },
     "service4": {
-      "title": "UX/UI Design",
-      "description": "Diseñamos interfaces intuitivas y atractivas que mejoran la experiencia del usuario y aumentan la conversión."
+      "title": "Marketing y Comunicación",
+      "description": "Creamos campañas de marketing localizadas, elaboramos mensajes y contenido específicos para cada región y supervisamos la publicidad y la cobertura de medios para aumentar su marca en los mercados locales."
     },
     "service5": {
-      "title": "Cloud Solutions",
-      "description": "Implementamos soluciones en la nube que optimizan tus recursos y mejoran la escalabilidad de tu negocio."
-    },
-    "service6": {
-      "title": "Equipos Dedicados",
-      "description": "Formamos equipos de desarrollo a medida que se integran con tu empresa para trabajar en tus proyectos."
+      "title": "Apoyo Operativo",
+      "description": "Asistimos con personal técnico y equipo de trabajo, proporcionamos infraestructura técnica local y guíamos procesos de cumplimiento y certificación."
     }
   },
   "technology": {
@@ -75,33 +70,33 @@
     "title": "Tecnologías de vanguardia para soluciones innovadoras",
     "description": "Utilizamos las tecnologías más avanzadas y eficientes para desarrollar soluciones digitales que impulsen el crecimiento de tu negocio.",
     "tabs": {
-      "web": "Desarrollo Web",
-      "mobile": "Desarrollo Móvil",
-      "cloud": "Cloud & DevOps"
+      "web": "Infraestructura & Conectividad",
+      "mobile": "Tecnologías Inteligentes",
+      "cloud": "Energía & Computación"
     },
     "web": {
-      "title": "Desarrollo Web de Última Generación",
-      "description": "Utilizamos frameworks y tecnologías modernas para crear aplicaciones web rápidas, seguras y escalables.",
-      "item1": "React, Next.js, Vue.js",
-      "item2": "Node.js, Express, NestJS",
-      "item3": "GraphQL, REST APIs",
-      "item4": "PostgreSQL, MongoDB, MySQL"
+      "title": "Infraestructura & Conectividad",
+      "description": "Implementamos infraestructuras de red robustas y escalables, garantizando una conectividad confiable y alta velocidad para tu negocio.",
+      "item1": "Infraestructura de Telecomunicaciones",
+      "item2": "Soluciones de conectividad",
+      "item3": "Redes LTE privadas",
+      "item4": "Imágenes y comunicaciones por satélite"
     },
     "mobile": {
-      "title": "Desarrollo Móvil Multiplataforma",
-      "description": "Creamos aplicaciones móviles nativas e híbridas que ofrecen una experiencia de usuario excepcional.",
-      "item1": "React Native, Flutter",
-      "item2": "Swift, Kotlin",
-      "item3": "Firebase, AWS Amplify",
-      "item4": "Integración con APIs y servicios"
+      "title": "Tecnologías Inteligentes",
+      "description": "Apunta al desarrollo de ecosistemas urbanos, industriales y digitales más eficientes e interconectados.",
+      "item1": "Internet de las cosas (IoT)",
+      "item2": "Tecnologías de ciudades inteligentes",
+      "item3": "Aplicaciones de inteligencia artificial",
+      "item4": "Imágenes y comunicaciones por satélite"
     },
     "cloud": {
-      "title": "Soluciones Cloud y DevOps",
+      "title": "Energía & Computación",
       "description": "Implementamos infraestructuras en la nube seguras, escalables y eficientes para tus aplicaciones.",
-      "item1": "AWS, Google Cloud, Azure",
-      "item2": "Docker, Kubernetes",
-      "item3": "CI/CD, Automatización",
-      "item4": "Monitoreo y Seguridad"
+      "item1": "Computación en la nube y en el borde",
+      "item2": "Tecnologías de energía renovable",
+      "item3": "Redes LTE privadas",
+      "item4": "Tecnologías de ciudades inteligentes"
     }
   },
   "industries": {
@@ -109,36 +104,20 @@
     "title": "Soluciones especializadas para diversos sectores",
     "description": "Tenemos experiencia trabajando con empresas de diferentes industrias, adaptando nuestras soluciones a las necesidades específicas de cada sector.",
     "industry1": {
-      "title": "Fintech",
-      "description": "Soluciones seguras y escalables para el sector financiero"
+      "title": "Telecomunicaciones y proveedores de servicios",
+      "description": "Descubra oportunidades de mercado en conectividad, afronte los desafíos de implementación y posicione su tecnología con operadores e ISP."
     },
     "industry2": {
-      "title": "E-commerce",
-      "description": "Plataformas de comercio electrónico optimizadas para ventas"
+      "title": "Tecnologías inteligentes de ciudades",
+      "description": "Escalar soluciones de IoT y agricultura de precisión con estrategias personalizadas y una entrada optimizada al mercado"
     },
     "industry3": {
-      "title": "Salud",
-      "description": "Sistemas de gestión y telemedicina para el sector salud"
+      "title": "Energía y recursos",
+      "description": "Aproveche los sectores de energía y minería con estrategias localizadas e implementación de tecnología compatible."
     },
     "industry4": {
-      "title": "Educación",
-      "description": "Plataformas de e-learning y gestión educativa"
-    },
-    "industry5": {
-      "title": "Logística",
-      "description": "Sistemas de seguimiento y optimización de rutas"
-    },
-    "industry6": {
-      "title": "Inmobiliaria",
-      "description": "Plataformas de gestión y visualización de propiedades"
-    },
-    "industry7": {
-      "title": "Turismo",
-      "description": "Soluciones para reservas y experiencias turísticas"
-    },
-    "industry8": {
-      "title": "Manufactura",
-      "description": "Sistemas de gestión y optimización de procesos"
+      "title": "Gobierno y ciudades inteligentes",
+      "description": "Posicione sus soluciones en proyectos de infraestructura pública y ciudades inteligentes a través de un acceso específico y apoyo al cumplimiento."
     }
   },
   "testimonials": {

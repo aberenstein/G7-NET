@@ -26,7 +26,7 @@ export function Industries() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {[1, 2, 3, 4, 5, 6, 7, 8].map((index) => (
+          {[1, 2, 3, 4].map((index) => (
             <div
               key={index}
               className="bg-white rounded-lg shadow-md p-6 text-center"
@@ -40,12 +40,6 @@ export function Industries() {
                   <ShoppingCart className="h-8 w-8 text-[#48b4e8]" />
                 )}
                 {index === 4 && <Heart className="h-8 w-8 text-[#48b4e8]" />}
-                {index === 5 && (
-                  <GraduationCap className="h-8 w-8 text-[#48b4e8]" />
-                )}
-                {index === 6 && <Plane className="h-8 w-8 text-[#48b4e8]" />}
-                {index === 7 && <Car className="h-8 w-8 text-[#48b4e8]" />}
-                {index === 8 && <Banknote className="h-8 w-8 text-[#48b4e8]" />}
               </div>
               <h3 className="text-lg font-bold text-black mb-2">
                 {t(`industry${index}.title`)}
