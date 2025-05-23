@@ -1,16 +1,15 @@
+"use client"
+
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Boxes } from "./ui/background-boxes"
 import { ArrowRight } from "lucide-react"
 import { useTranslations } from "next-intl"
-
+import { useRouter } from "next/navigation"
 export function Hero() {
   const t = useTranslations("hero")
+  const router = useRouter()
   return (
     <div className="h-screen relative w-full overflow-hidden bg-white flex flex-col items-center justify-center rounded-lg">
-      <div className="absolute inset-0 w-full h-full bg-white z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-
-      <Boxes className="opacity-25" />
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -30,7 +29,10 @@ export function Hero() {
             {t("subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white px-6 py-2 text-sm h-11 w-44">
+            <Button
+              onClick={() => router.push("#contact")}
+              className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white px-6 py-2 text-sm h-11 w-44"
+            >
               {t("primaryCta")}
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
