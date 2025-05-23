@@ -82,7 +82,10 @@ export function Navbar({ scrolled }: { scrolled: boolean }) {
             </Link>
           </nav>
           <div className="flex items-center gap-2">
-            <Button className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white">
+            <Button
+              onClick={() => router.push("#contact")}
+              className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white"
+            >
               {t("cta")} <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Select onValueChange={onSelectChange} aria-label="Select language">
