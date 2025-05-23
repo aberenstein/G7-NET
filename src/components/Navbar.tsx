@@ -45,12 +45,6 @@ export function Navbar({ scrolled }: { scrolled: boolean }) {
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <Link
-              href="#about"
-              className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
-            >
-              {t("about")}
-            </Link>
-            <Link
               href="#services"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
@@ -69,10 +63,16 @@ export function Navbar({ scrolled }: { scrolled: boolean }) {
               {t("industries")}
             </Link>
             <Link
-              href="#testimonials"
+              href="#novedades"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
-              {t("testimonials")}
+              {t("novedades")}
+            </Link>
+            <Link
+              href="#about"
+              className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
+            >
+              {t("about")}
             </Link>
             <Link
               href="#contact"
