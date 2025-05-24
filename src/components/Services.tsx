@@ -3,9 +3,9 @@ import {
   ChevronRight,
   Code,
   LayoutGrid,
-  Globe,
-  Laptop,
-  Sparkles,
+  ChatColumnIncreasing,
+  Speech,
+  Handshake,
   Users,
 } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
@@ -32,18 +32,20 @@ export function Services() {
               <Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
                 <CardContent className="p-6">
                   <div className="w-12 h-12 rounded-lg bg-[#48b4e8]/10 flex items-center justify-center mb-6">
-                    {index === 1 && <Code className="h-6 w-6 text-[#48b4e8]" />}
+                    {index === 1 && (
+                      <Code className="h-6 w-6 text-[#48b4e8]" />
+                    )}
                     {index === 2 && (
                       <LayoutGrid className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 3 && (
-                      <Globe className="h-6 w-6 text-[#48b4e8]" />
+                      <ChatColumnIncreasing className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 4 && (
-                      <Laptop className="h-6 w-6 text-[#48b4e8]" />
+                      <Speech className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 5 && (
-                      <Sparkles className="h-6 w-6 text-[#48b4e8]" />
+                      <Handshake className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 6 && (
                       <Users className="h-6 w-6 text-[#48b4e8]" />
