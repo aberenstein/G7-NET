@@ -91,7 +91,7 @@ export function About() {
                 alt={"Team Member"}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                className="grayscale object-cover object-center"
+                className="grayscale object-contain object-center"
               />
             </div>
             <div>
@@ -127,7 +127,7 @@ export function About() {
                 alt={"Team Member"}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                className="grayscale object-cover object-center"
+                className="grayscale object-contain object-center"
               />
             </div>
             <div>
