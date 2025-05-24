@@ -28,27 +28,27 @@
     "intro": "Los fundadores de {companyName} tienen más de 25 años de experiencia ejecutiva en la industria TMT, generando valor en grandes empresas de telecomunicaciones y medios.",
     "firstMember": {
       "name": "GUILLERMO RIVABEN",
-      "image": "/team-member.png",
-      "linkedin": "https://www.linkedin.com/in/guillermorivaben/",
+      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
       "description": "Guillermo lideró la transformación digital de La Nación Group, modernizando una empresa tradicional de medios. Antes, como CEO y CMO en Telecom Personal, impulsó su crecimiento con el lanzamiento del primer servicio 3G del país y la consolidó como líder en ingresos y rentabilidad."
     },
     "secondMember": {
       "name": "IGNACIO NORES",
-      "image": "/team-member.png",
-      "linkedin": "https://www.linkedin.com/in/ignacionores/",
+      "image": "/Web-Ignacio-Nores-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/inores/",
       "description": "Como VP en Entel Perú, lideró el lanzamiento y crecimiento del negocio de consumo, cuadruplicando ingresos en 4 años. Antes, como CMO en Telecom Personal, impulsó la innovación en marketing y el liderazgo regional en ingresos por datos. También fue parte del equipo fundador de Despegar.com, donde lanzó el negocio B2B."
     },
     "thirdMember": {
-      "name": "JUAN PABLO GONZALEZ",
-      "image": "/team-member.png",
-      "linkedin": "https://www.linkedin.com/in/juanpablogonzalez/",
-      "description": "Como CMO de Telecom Personal, Juan Pablo lideró el desarrollo del primer servicio 3G del país y fue clave en el startup de Telecom Personal en 1994."
+      "name": "MARTÍN RIVABEL",
+      "image": "/Web-Martin-Ribaven-1-720x960.png",
+      "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
+      "description": "Ocupó posiciones de máxima responsabilidad como Director y Vicepresidente Regional para el Cono Sur en Ascend Communications, Lucent Technologies, UTStarcom y Arista Networks. Hombre de negocios y emprendedor, está dedicado hace 8 años al desarrollo de empresas de tecnología, comenzando en el año 2011 con la fundación de la compañía Pontis Technologies, con la cual introdujo las primeras operaciones de servicios IPTV y OTT para operadores de Telecomunicaciones."
     },
     "fourthMember": {
-      "name": "FEDERICO DIAZ",
-      "image": "/team-member.png",
-      "linkedin": "https://www.linkedin.com/in/juanpablogonzalez/",
-      "description": "Como VP de Innovación, Federico lideró proyectos tecnológicos clave y promovió alianzas estratégicas en América Latina."
+      "name": "ABEL BERENSTEIN",
+      "image": "/Web-Abel-Berenstein-1-720x960.png",
+      "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
+      "description": "Como VP de Innovación, Abel lideró proyectos tecnológicos clave y promovió alianzas estratégicas en América Latina."
     }
   },
   "services": {

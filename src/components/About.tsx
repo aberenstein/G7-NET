@@ -31,8 +31,8 @@ export function About() {
           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
-                src={"/Web-Guillermos-Rivaben-1-uai-720x960.jpg"}
-                alt={"Team Member"}
+                src={t("firstMember.image")}
+                alt={t("firstMember.name")}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="grayscale object-contain object-center"
@@ -59,8 +59,8 @@ export function About() {
           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
-                src={"/Web-Ignacio-Nores-1-uai-720x960.jpg"}
-                alt={"Team Member"}
+                src={t("secondMember.image")}
+                alt={t("secondMember.name")}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="grayscale object-contain object-center"
@@ -87,8 +87,8 @@ export function About() {
           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
-                src={"/Web-Martin-Ribaven-1-720x960.png"}
-                alt={"Team Member"}
+                src={t("thirdMember.image")}
+                alt={t("thirdMember.name")}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="grayscale object-contain object-center"
@@ -96,19 +96,18 @@ export function About() {
             </div>
             <div>
               <h3 className="text-2xl font-medium text-[#48b4e8] mb-2">
-                {t("thirdMember.name") || t("secondMember.name")}
+                {t("thirdMember.name")}
               </h3>
               <div>
                 <p className="text-black/80">
-                  {t("thirdMember.description") ||
-                    t("secondMember.description")}
+                  {t("thirdMember.description")}
                 </p>
               </div>
               <div className="mt-4">
-                {(t("thirdMember.linkedin") || t("secondMember.linkedin")) && (
+                {(t("thirdMember.linkedin")) && (
                   <Link
                     href={
-                      t("thirdMember.linkedin") || t("secondMember.linkedin")
+                      t("thirdMember.linkedin")
                     }
                     aria-label="LinkedIn"
                   >
@@ -123,8 +122,8 @@ export function About() {
           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
-                src={"/Web-Abel Berenstein-1-720x960.jpeg"}
-                alt={"Team Member"}
+                src={t("fourthMember.image")}
+                alt={t("fourthMember.name")}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="grayscale object-contain object-center"
@@ -132,19 +131,18 @@ export function About() {
             </div>
             <div>
               <h3 className="text-2xl font-medium text-[#48b4e8] mb-2">
-                {t("fourthMember.name") || t("secondMember.name")}
+                {t("fourthMember.name")}
               </h3>
               <div>
                 <p className="text-black/80">
-                  {t("fourthMember.description") ||
-                    t("secondMember.description")}
+                  {t("fourthMember.description")}
                 </p>
               </div>
               <div className="mt-4">
-                {(t("fourthMember.linkedin") || t("secondMember.linkedin")) && (
+                {t("fourthMember.linkedin") && (
                   <Link
                     href={
-                      t("fourthMember.linkedin") || t("secondMember.linkedin")
+                      t("thirdMember.linkedin")
                     }
                     aria-label="LinkedIn"
                   >
