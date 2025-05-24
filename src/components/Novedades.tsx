@@ -40,7 +40,7 @@ export function NewsSection() {
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#48b4e8]/10 rounded-lg z-0"></div>
             <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/novedades-image.png"
+                src="/viva_technology.jpg"
                 alt="Latest News"
                 width={800}
                 height={600}
