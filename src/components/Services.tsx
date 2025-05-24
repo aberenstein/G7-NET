@@ -1,6 +1,5 @@
-import Link from "next/link"
+// import Link from "next/link"
 import {
-  ChevronRight,
   Search,
   Route,
   ChartColumnIncreasing,
@@ -57,13 +56,13 @@ export function Services() {
                   <p className="text-black/70 mb-4">
                     {t(`service${index}.description`)}
                   </p>
-                  <Link
+                  {/* <Link
                     href="#"
                     className="inline-flex items-center text-[#48b4e8] font-medium hover:underline group"
                   >
                     {t("learnMore")}
                     <ChevronRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                  </Link>
+                  </Link> */}
                 </CardContent>
               </Card>
             </div>
