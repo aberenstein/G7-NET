@@ -42,8 +42,8 @@ export function Footer() {
               )}
             </div>
           </div>
-          {/* <div>
-            <h3 className="text-lg font-bold mb-6">{t("quickLinks.title")}</h3>
+          <div>
+            {/* <h3 className="text-lg font-bold mb-6">{t("quickLinks.title")}</h3>
             <ul className="space-y-3">
               {[1, 2, 3, 4, 5].map((index) => (
                 <li key={index}>
@@ -55,8 +55,8 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-            </ul>
-          </div> */}
+            </ul> */}
+          </div>
           <div>
             <h3 className="text-lg font-bold mb-6">{t("contact.title")}</h3>
             <ul className="space-y-3">
@@ -76,7 +76,7 @@ export function Footer() {
             &copy; {new Date().getFullYear()} G7NET. {t("copyright")}
           </p>
           <div className="flex space-x-6">
-            <Link
+            {/* <Link
               href="#"
               className="text-white/70 text-sm hover:text-[#48b4e8] transition-colors"
             >
@@ -87,7 +87,7 @@ export function Footer() {
               className="text-white/70 text-sm hover:text-[#48b4e8] transition-colors"
             >
               {t("terms")}
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
