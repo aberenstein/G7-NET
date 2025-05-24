@@ -3,7 +3,7 @@ import {
   ChevronRight,
   Code,
   LayoutGrid,
-  ChatColumnIncreasing,
+  ChartColumnIncreasing,
   Speech,
   Handshake,
   Users,
@@ -39,7 +39,7 @@ export function Services() {
                       <LayoutGrid className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 3 && (
-                      <ChatColumnIncreasing className="h-6 w-6 text-[#48b4e8]" />
+                      <ChartColumnIncreasing className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 4 && (
                       <Speech className="h-6 w-6 text-[#48b4e8]" />
