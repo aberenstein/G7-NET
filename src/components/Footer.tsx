@@ -42,7 +42,7 @@ export function Footer() {
               )}
             </div>
           </div>
-          <div>
+          {/* <div>
             <h3 className="text-lg font-bold mb-6">{t("quickLinks.title")}</h3>
             <ul className="space-y-3">
               {[1, 2, 3, 4, 5].map((index) => (
@@ -56,7 +56,7 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
           <div>
             <h3 className="text-lg font-bold mb-6">{t("contact.title")}</h3>
             <ul className="space-y-3">
