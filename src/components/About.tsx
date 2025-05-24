@@ -87,7 +87,7 @@ export function About() {
           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
-                src={"/team-member.png"}
+                src={"/Web-Martin-Ribaven-1-720x960.png"}
                 alt={"Team Member"}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -123,7 +123,7 @@ export function About() {
           <div className="flex flex-col space-y-4">
             <div className="w-full h-[350px] relative">
               <Image
-                src={"/team-member.png"}
+                src={"/Web-Abel Berenstein-1-720x960.jpeg"}
                 alt={"Team Member"}
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
