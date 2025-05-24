@@ -1,8 +1,8 @@
 import Link from "next/link"
 import {
   ChevronRight,
-  Code,
-  LayoutGrid,
+  Search,
+  Route,
   ChartColumnIncreasing,
   Speech,
   Handshake,
@@ -33,10 +33,10 @@ export function Services() {
                 <CardContent className="p-6">
                   <div className="w-12 h-12 rounded-lg bg-[#48b4e8]/10 flex items-center justify-center mb-6">
                     {index === 1 && (
-                      <Code className="h-6 w-6 text-[#48b4e8]" />
+                      <Search className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 2 && (
-                      <LayoutGrid className="h-6 w-6 text-[#48b4e8]" />
+                      <Route className="h-6 w-6 text-[#48b4e8]" />
                     )}
                     {index === 3 && (
                       <ChartColumnIncreasing className="h-6 w-6 text-[#48b4e8]" />
