@@ -1,11 +1,11 @@
-import Link from "next/link"
+// import Link from "next/link"
 import {
   MapPin,
   MessageSquare,
-  Twitter,
-  Linkedin,
-  Facebook,
-  Instagram,
+  // Twitter,
+  // Linkedin,
+  // Facebook,
+  // Instagram,
 } from "lucide-react"
 
 import Image from "next/image"
