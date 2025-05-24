@@ -23,7 +23,7 @@ export function Footer() {
             </div>
             <p className="text-white/70 mb-6">{t("description")}</p>
             <div className="flex space-x-4">
-              {["twitter", "linkedin", "facebook", "instagram"].map(
+              {/* {["twitter", "linkedin", "facebook", "instagram"].map(
                 (social) => (
                   <Link
                     key={social}
@@ -39,7 +39,7 @@ export function Footer() {
                     )}
                   </Link>
                 )
-              )}
+              )} */}
             </div>
           </div>
           <div>

@@ -56,7 +56,7 @@ export function Contact() {
             </div>
 
             <div className="flex space-x-4">
-              {["twitter", "linkedin", "facebook", "instagram"].map(
+              {/* {["twitter", "linkedin", "facebook", "instagram"].map(
                 (social) => (
                   <Link
                     key={social}
@@ -72,7 +72,7 @@ export function Contact() {
                     )}
                   </Link>
                 )
-              )}
+              )} */}
             </div>
           </div>
           <div>
