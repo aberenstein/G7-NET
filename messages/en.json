@@ -26,28 +26,28 @@
     "description1": "G7Net S.A. is a specialized consulting firm led by former Regional Vice Presidents with more than three decades of experience in the technology sector throughout Latin America. Our deep understanding of local markets, extensive industry networks, and proven track record make us the ideal partner for technology companies looking to establish or expand their presence in Argentina and South America.",
     "description2": "Our consultants bring executive-level expertise in telecommunications, connectivity solutions, IoT, renewable energy, and emerging technologies, providing you with strategic guidance and practical support at every stage of your market entry and growth.",
     "firstMember": {
-      "name": "GUILLERMO RIVABEN",
-      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
-      "description": "Guillermo led the digital transformation of La Nación Group, modernizing a traditional media company. Previously, as CEO and CMO of Telecom Personal, he drove its growth with the launch of the country's first 3G service and consolidated its position as a leader in revenue and profitability."
-    },
-    "secondMember": {
-      "name": "IGNACIO NORES",
-      "image": "/Web-Ignacio-Nores-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/inores/",
-      "description": "En tant que vice-président chez Entel Pérou, il a dirigé le lancement et la croissance du marché grand public, quadruplant les revenus en quatre ans. Auparavant, en tant que CMO de Telecom Personal, il a stimulé l'innovation marketing et le leadership régional en revenus de données. Il a également fait partie de l'équipe fondatrice de Despegar.com, où il a lancé l'activité B2B."
-    },
-    "thirdMember": {
       "name": "MARTÍN RIVABEN",
       "image": "/Web-Martin-Ribaven-1-720x960.png",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Martín held top executive positions as Director and Regional Vice President for the Southern Cone at Ascend Communications, Lucent Technologies, UTStarcom, and Arista Networks. A businessman and entrepreneur, he has been dedicated for the past 8 years to the development of technology companies, beginning in 2011 with the founding of Pontis Technologies, through which he introduced the first IPTV and OTT service operations for telecommunications operators."
     },
-    "fourthMember": {
+    "secondMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
+      "description": "Guillermo led the digital transformation of La Nación Group, modernizing a traditional media company. Previously, as CEO and CMO of Telecom Personal, he drove its growth with the launch of the country's first 3G service and consolidated its position as a leader in revenue and profitability."
+    },
+    "thirdMember": {
       "name": "ABEL BERENSTEIN",
       "image": "/Web-Abel-Berenstein-1-720x960.jpeg",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Abel is a recognized leader in technological innovation with a solid track record in both the public and private sectors. He worked in the technology division of the Administración Federal de Ingresos Públicos, where he led key initiatives in digital transformation and process modernization. As a consultant, he has promoted strategic alliances across Latin America, driving technology solutions with a regional vision."
+    },
+    "fourthMember": {
+      "name": "IGNACIO NORES",
+      "image": "/Web-Ignacio-Nores-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/inores/",
+      "description": "En tant que vice-président chez Entel Pérou, il a dirigé le lancement et la croissance du marché grand public, quadruplant les revenus en quatre ans. Auparavant, en tant que CMO de Telecom Personal, il a stimulé l'innovation marketing et le leadership régional en revenus de données. Il a également fait partie de l'équipe fondatrice de Despegar.com, où il a lancé l'activité B2B."
     }
   },
   "services": {

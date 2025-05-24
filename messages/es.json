@@ -27,28 +27,28 @@
     "description2": "Nuestros consultores aportan experiencia a nivel ejecutivo en telecomunicaciones, soluciones de conectividad, IoT, energía renovable y tecnologías emergentes, brindándole orientación estratégica y apoyo práctico en cada etapa de su ingreso al mercado y crecimiento.",
     "intro": "Los fundadores de {companyName} tienen más de 25 años de experiencia ejecutiva en la industria TMT, generando valor en grandes empresas de telecomunicaciones y medios.",
     "firstMember": {
-      "name": "GUILLERMO RIVABEN",
-      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
-      "description": "Guillermo lideró la transformación digital de La Nación Group, modernizando una empresa tradicional de medios. Antes, como CEO y CMO en Telecom Personal, impulsó su crecimiento con el lanzamiento del primer servicio 3G del país y la consolidó como líder en ingresos y rentabilidad."
-    },
-    "secondMember": {
-      "name": "IGNACIO NORES",
-      "image": "/Web-Ignacio-Nores-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/inores/",
-      "description": "Como VP en Entel Perú, lideró el lanzamiento y crecimiento del negocio de consumo, cuadruplicando ingresos en 4 años. Antes, como CMO en Telecom Personal, impulsó la innovación en marketing y el liderazgo regional en ingresos por datos. También fue parte del equipo fundador de Despegar.com, donde lanzó el negocio B2B."
-    },
-    "thirdMember": {
       "name": "MARTÍN RIVABEN",
       "image": "/Web-Martin-Ribaven-1-720x960.png",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Martín ocupó posiciones de máxima responsabilidad como Director y Vicepresidente Regional para el Cono Sur en Ascend Communications, Lucent Technologies, UTStarcom y Arista Networks. Hombre de negocios y emprendedor, está dedicado hace 8 años al desarrollo de empresas de tecnología, comenzando en el año 2011 con la fundación de la compañía Pontis Technologies, con la cual introdujo las primeras operaciones de servicios IPTV y OTT para operadores de Telecomunicaciones."
     },
-    "fourthMember": {
+    "secondMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
+      "description": "Guillermo lideró la transformación digital de La Nación Group, modernizando una empresa tradicional de medios. Antes, como CEO y CMO en Telecom Personal, impulsó su crecimiento con el lanzamiento del primer servicio 3G del país y la consolidó como líder en ingresos y rentabilidad."
+    },
+    "thirdMember": {
       "name": "ABEL BERENSTEIN",
       "image": "/Web-Abel-Berenstein-1-720x960.jpeg",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Abel es un referente en innovación tecnológica con una sólida trayectoria tanto en el sector público como en el privado. Se desempeñó en el área de tecnología de la Administración Federal de Ingresos Públicos, donde lideró iniciativas clave de transformación digital y modernización de procesos. Como consultor, ha promovido alianzas estratégicas en América Latina, articulando soluciones tecnológicas con visión regional."
+    },
+    "fourthMember": {
+      "name": "IGNACIO NORES",
+      "image": "/Web-Ignacio-Nores-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/inores/",
+      "description": "Como VP en Entel Perú, lideró el lanzamiento y crecimiento del negocio de consumo, cuadruplicando ingresos en 4 años. Antes, como CMO en Telecom Personal, impulsó la innovación en marketing y el liderazgo regional en ingresos por datos. También fue parte del equipo fundador de Despegar.com, donde lanzó el negocio B2B."
     }
   },
   "services": {

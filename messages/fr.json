@@ -26,28 +26,28 @@
     "description1": "G7Net S.A. est une entreprise de conseil spécialisée, dirigée par des anciens vice-présidents régionaux avec plus de trente ans d'expérience dans le secteur technologique en Amérique latine. Notre profonde compréhension des marchés locaux, nos réseaux d'industrie étendus et notre solide parcours nous font le partenaire idéal pour les entreprises technologiques qui cherchent à établir ou à étendre leur présence en Argentine et en Amérique du Sud.",
     "description2": "Nos consultants apportent une expertise de niveau exécutif dans les télécommunications, les solutions de connectivité, l'IoT, l'énergie renouvelable et les technologies émergentes, vous offrant une orientation stratégique et un support pratique à chaque étape de votre entrée sur le marché et de votre croissance.",
     "firstMember": {
-      "name": "GUILLERMO RIVABEN",
-      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
-      "description": "Guillermo a mené la transformation numérique de La Nación Group, modernisant une entreprise de médias traditionnels. Précédemment, comme PDG et CMO de Telecom Personal, il a développé le premier service 3G du pays et consolidé sa position comme leader dans les revenus et la rentabilité."
-    },
-    "secondMember": {
-      "name": "IGNACIO NORES",
-      "image": "/Web-Ignacio-Nores-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/inores/",
-      "description": "Comme PDG de La Nación Group, Guillermo a dirigé la transformation numérique et culturelle d'une entreprise de médias traditionnels, cassant un paradigme. Avant cela, il était Directeur Général de Telecom Personal et a mené son développement dans un marché transformé par les smartphones et internet mobile. Il a été un leader dans les revenus et l'Ebitda. Précédemment, comme CMO, il a géré le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
-    },
-    "thirdMember": {
       "name": "MARTÍN RIVABEN",
       "image": "/Web-Martin-Ribaven-1-720x960.png",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Martín a occupé des postes de haute responsabilité en tant que Directeur et Vice-Président Régional pour le Cône Sud chez Ascend Communications, Lucent Technologies, UTStarcom et Arista Networks. Homme d’affaires et entrepreneur, il se consacre depuis huit ans au développement d’entreprises technologiques, ayant commencé en 2011 avec la fondation de la société Pontis Technologies, avec laquelle il a introduit les premières opérations de services IPTV et OTT pour les opérateurs de télécommunications."
     },
-    "fourthMember": {
+    "secondMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
+      "description": "Guillermo a mené la transformation numérique de La Nación Group, modernisant une entreprise de médias traditionnels. Précédemment, comme PDG et CMO de Telecom Personal, il a développé le premier service 3G du pays et consolidé sa position comme leader dans les revenus et la rentabilité."
+    },
+    "thirdMember": {
       "name": "ABEL BERENSTEIN",
       "image": "/Web-Abel-Berenstein-1-720x960.jpeg",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Abel est une référence en innovation technologique, avec une solide expérience tant dans le secteur public que privé. Il a travaillé dans le domaine technologique de l’Administración Federal de Ingresos Públicos, où il a dirigé des initiatives clés de transformation numérique et de modernisation des processus. En tant que consultant, il a favorisé des alliances stratégiques en Amérique latine, en mettant en œuvre des solutions technologiques avec une vision régionale."
+    },
+    "fourthMember": {
+      "name": "IGNACIO NORES",
+      "image": "/Web-Ignacio-Nores-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/inores/",
+      "description": "Comme PDG de La Nación Group, Guillermo a dirigé la transformation numérique et culturelle d'une entreprise de médias traditionnels, cassant un paradigme. Avant cela, il était Directeur Général de Telecom Personal et a mené son développement dans un marché transformé par les smartphones et internet mobile. Il a été un leader dans les revenus et l'Ebitda. Précédemment, comme CMO, il a géré le développement du premier service 3G du pays et a été clé dans le startup de Telecom Personal en 1994."
     }
   },
   "services": {
