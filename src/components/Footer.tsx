@@ -72,9 +72,6 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-white/70 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} G7NET. {t("copyright")}
-          </p>
           <div className="flex space-x-6">
             {/* <Link
               href="#"
@@ -89,6 +86,9 @@ export function Footer() {
               {t("terms")}
             </Link> */}
           </div>
+          <p className="text-white/70 text-sm mb-4 md:mb-0">
+            &copy; {new Date().getFullYear()} G7NET. {t("copyright")}
+          </p>
         </div>
       </div>
     </footer>

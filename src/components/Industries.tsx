@@ -1,4 +1,4 @@
-import { Building2, Factory, ShoppingCart, Heart } from "lucide-react"
+import { Building, Building2, SatelliteDish, Atom } from "lucide-react"
 import { useTranslations } from "next-intl"
 
 export function Industries() {
@@ -23,14 +23,10 @@ export function Industries() {
               className="bg-white rounded-lg shadow-md p-6 text-center"
             >
               <div className="w-16 h-16 rounded-full bg-[#48b4e8]/10 flex items-center justify-center mx-auto mb-4">
-                {index === 1 && (
-                  <Building2 className="h-8 w-8 text-[#48b4e8]" />
-                )}
-                {index === 2 && <Factory className="h-8 w-8 text-[#48b4e8]" />}
-                {index === 3 && (
-                  <ShoppingCart className="h-8 w-8 text-[#48b4e8]" />
-                )}
-                {index === 4 && <Heart className="h-8 w-8 text-[#48b4e8]" />}
+                {index === 1 && <SatelliteDish className="h-8 w-8 text-[#48b4e8]" />}
+                {index === 2 && <Building className="h-8 w-8 text-[#48b4e8]" />}
+                {index === 3 && <Atom className="h-8 w-8 text-[#48b4e8]" />}
+                {index === 4 && <Building2 className="h-8 w-8 text-[#48b4e8]" />}
               </div>
               <h3 className="text-lg font-bold text-black mb-2">
                 {t(`industry${index}.title`)}
