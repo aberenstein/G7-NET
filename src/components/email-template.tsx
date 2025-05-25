@@ -5,9 +5,7 @@ import {
   Column,
   Head,
   Heading,
-  Hr,
   Html,
-  Img,
   Link,
   Preview,
   Row,
@@ -100,12 +98,6 @@ const container = {
   maxWidth: "600px",
 }
 
-const logoContainer = {
-  display: "flex",
-  alignItems: "center",
-  padding: "20px",
-}
-
 const content = {
   backgroundColor: "#ffffff",
   padding: "20px",
@@ -183,22 +175,6 @@ const button = {
   textDecoration: "none",
   textAlign: "center" as const,
   display: "inline-block",
-}
-
-const hr = {
-  borderColor: "#e6e6e6",
-  margin: "20px 0",
-}
-
-const footer = {
-  textAlign: "center" as const,
-  padding: "0 20px",
-}
-
-const footerText = {
-  fontSize: "14px",
-  color: "#666",
-  margin: "5px 0",
 }
 
 const link = {
