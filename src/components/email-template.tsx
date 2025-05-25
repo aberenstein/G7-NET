@@ -28,9 +28,6 @@ export const ContactFormEmail = ({
   subject = "Consulta sobre servicios",
   message = "Me gustaría obtener más información sobre sus servicios de desarrollo web y aplicaciones móviles.",
 }: ContactFormEmailProps) => {
-  const baseUrl = process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : "http://localhost:3000"
 
   return (
     <Html>
@@ -38,26 +35,6 @@ export const ContactFormEmail = ({
       <Preview>Nueva consulta de contacto de {name}</Preview>
       <Body style={main}>
         <Container style={container}>
-          <Section style={logoContainer}>
-            <Img
-              src={`${baseUrl}/logo-placeholder.png`}
-              width="40"
-              height="40"
-              alt="TechSolutions"
-              style={{ marginRight: "10px" }}
-            />
-            <Text
-              style={{
-                ...text,
-                color: "#48b4e8",
-                fontSize: "20px",
-                fontWeight: "bold",
-              }}
-            >
-              TechSolutions
-            </Text>
-          </Section>
-          <Hr style={hr} />
           <Section style={content}>
             <Heading style={heading}>Nueva consulta de contacto</Heading>
             <Text style={text}>
@@ -101,24 +78,6 @@ export const ContactFormEmail = ({
                 Responder
               </Button>
             </Section>
-          </Section>
-          <Hr style={hr} />
-          <Section style={footer}>
-            <Text style={footerText}>
-              © {new Date().getFullYear()} TechSolutions. Todos los derechos
-              reservados.
-            </Text>
-            <Text style={footerText}>
-              Av. del Libertador 6250, Buenos Aires, Argentina
-            </Text>
-            <Text style={footerText}>
-              <Link
-                href="https://techsolutions.com"
-                style={{ ...link, color: "#48b4e8" }}
-              >
-                www.techsolutions.com
-              </Link>
-            </Text>
           </Section>
         </Container>
       </Body>
