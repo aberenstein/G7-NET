@@ -35,7 +35,7 @@ export function Contact() {
     startTransition(async () => {
       const result = await sendEmailAction(formData)
       if ("error" in result) {
-        setStatus(result.error.toString())
+        setStatus(result.error?.toString() || "Ocurrió un error inesperado")
       } else {
         setStatus(result.success!)
         setFormData({
