@@ -1,6 +1,6 @@
 import nodemailer from "nodemailer"
-import { render } from "@react-email/render"
 import { ContactFormEmail } from "@/components/email-template"
+import { render } from "@react-email/render"
 
 export const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -33,7 +33,7 @@ export const sendEmail = async ({
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: process.env.EMAIL_RECIPIENT,
-    subject: "Nueva consulta desde GrupoGr website",
+    subject: "Nueva consulta desde G7 Net website",
     html: emailHtml,
     text: "",
   }

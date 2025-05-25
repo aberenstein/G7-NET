@@ -10,9 +10,44 @@ import {
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { useTranslations } from "next-intl"
+import { useState, useTransition } from "react"
+import { sendEmailAction } from "@/actions/email-action"
 
 export function Contact() {
   const t = useTranslations("contact")
+
+    const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  })
+  const [status, setStatus] = useState<string | null>(null)
+  const [isPending, startTransition] = useTransition()
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value })
+  }
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+
+    startTransition(async () => {
+      const result = await sendEmailAction(formData)
+      if ("error" in result) {
+        setStatus(result.error.toString())
+      } else {
+        setStatus(result.success!)
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        })
+      }
+    })
+  }
+  
   return (
     <section id="contact" className="py-20 md:py-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -89,6 +124,8 @@ export function Contact() {
                     <input
                       id="name"
                       type="text"
+                      value={formData.name}
+                      onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={t("form.namePlaceholder")}
                     />
@@ -103,6 +140,8 @@ export function Contact() {
                     <input
                       id="email"
                       type="email"
+                      value={formData.email}
+                      onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={t("form.emailPlaceholder")}
                     />
@@ -117,6 +156,8 @@ export function Contact() {
                     <input
                       id="subject"
                       type="text"
+                      value={formData.subject}
+                      onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={t("form.subjectPlaceholder")}
                     />
@@ -131,13 +172,22 @@ export function Contact() {
                     <textarea
                       id="message"
                       rows={4}
+                      value={formData.message}
+                      onChange={handleChange}
                       className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#48b4e8]"
                       placeholder={t("form.messagePlaceholder")}
                     />
                   </div>
-                  <Button className="w-full bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white">
-                    {t("form.submit")}
+                  <Button
+                    type="submit"
+                    disabled={isPending}
+                    className="w-full bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white"
+                  >
+                    {isPending ? t("form.sending") : t("form.submit")}
                   </Button>
+                  {status && (
+                    <p className="text-sm text-center text-red-500 mt-2">{status}</p>
+                  )}
                 </form>
               </CardContent>
             </Card>
