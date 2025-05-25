@@ -164,7 +164,9 @@
       "subjectPlaceholder": "¿En qué podemos ayudarte?",
       "message": "Mensaje",
       "messagePlaceholder": "Cuéntanos más sobre tu proyecto...",
-      "submit": "Enviar Mensaje"
+      "submit": "Enviar Mensaje",
+      "success": "¡Gracias por su mensaje! Nos contactaremos con usted a la brevedad.",
+      "error": "Encontramos error al enviar su mensaje. Por favor intente nuevamente más tarde."
     }
   },
   "footer": {

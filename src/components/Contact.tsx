@@ -16,7 +16,7 @@ import { sendEmailAction } from "@/actions/email-action"
 export function Contact() {
   const t = useTranslations("contact")
 
-    const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
@@ -35,7 +35,7 @@ export function Contact() {
     startTransition(async () => {
       const result = await sendEmailAction(formData)
       if ("error" in result) {
-        setStatus(result.error?.toString() || "Ocurrió un error inesperado")
+        setStatus(result.error?.toString() || c)
       } else {
         setStatus(result.success!)
         setFormData({
