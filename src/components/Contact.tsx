@@ -113,7 +113,7 @@ export function Contact() {
           <div>
             <Card className="border-none shadow-xl">
               <CardContent className="p-6">
-                <form className="space-y-6">
+                <form className="space-y-6" onSubmit={handleSubmit}>
                   <div className="space-y-2">
                     <label
                       htmlFor="name"
