@@ -3,11 +3,8 @@
 import { ContactSchema } from "@/lib/validations/ContactSchema"
 import { ContactForm } from "@/types"
 import { sendEmail } from "@/lib/nodemailer"
-import { useTranslations } from "next-intl"
 
-export const sendEmailAction = async (formData: ContactForm) => {
-  const t = useTranslations("contact")
-
+export const sendEmailAction = async (formData: ContactForm, successMssg: string, errorMssg: string) => {
   const validatedFields = ContactSchema.safeParse(formData)
 
   if (!validatedFields.success) {
@@ -24,8 +21,8 @@ export const sendEmailAction = async (formData: ContactForm) => {
   })
 
   if (result.error) {
-    return { error: t("form.error") }
+    return { error: errorMssg }
   }
 
-  return { success: t("form.success") }
+  return { success: successMssg }
 }

@@ -33,9 +33,9 @@ export function Contact() {
     e.preventDefault()
 
     startTransition(async () => {
-      const result = await sendEmailAction(formData)
+      const result = await sendEmailAction(formData, t("form.success"), t("form.error"))
       if ("error" in result) {
-        setStatus(result.error?.toString() || c)
+        setStatus(result.error?.toString() || t("form.error"))
       } else {
         setStatus(result.success!)
         setFormData({
