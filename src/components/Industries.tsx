@@ -1,3 +1,5 @@
+"use client"
+
 import { Building, Building2, SatelliteDish, Atom } from "lucide-react"
 import { useTranslations } from "next-intl"
 

@@ -1,11 +1,8 @@
-// import Link from "next/link"
+"use client"
+
 import {
   MapPin,
   MessageSquare,
-  // Twitter,
-  // Linkedin,
-  // Facebook,
-  // Instagram,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -33,11 +30,11 @@ export function Contact() {
     e.preventDefault()
 
     startTransition(async () => {
-      const result = await sendEmailAction(formData, t("form.success"), t("form.error"))
+      const result = await sendEmailAction(formData)
       if ("error" in result) {
-        setStatus(result.error?.toString() || t("form.error"))
+        setStatus(t("form.error"))
       } else {
-        setStatus(result.success!)
+        setStatus(t("form.success"))
         setFormData({
           name: "",
           email: "",
@@ -91,23 +88,6 @@ export function Contact() {
             </div>
 
             <div className="flex space-x-4">
-              {/* {["twitter", "linkedin", "facebook", "instagram"].map(
-                (social) => (
-                  <Link
-                    key={social}
-                    href="#"
-                    className="w-10 h-10 rounded-full bg-[#48b4e8]/10 flex items-center justify-center hover:bg-[#48b4e8] hover:text-white transition-colors"
-                  >
-                    <span className="sr-only">{social}</span>
-                    {social === "twitter" && <Twitter className="h-5 w-5" />}
-                    {social === "linkedin" && <Linkedin className="h-5 w-5" />}
-                    {social === "facebook" && <Facebook className="h-5 w-5" />}
-                    {social === "instagram" && (
-                      <Instagram className="h-5 w-5" />
-                    )}
-                  </Link>
-                )
-              )} */}
             </div>
           </div>
           <div>

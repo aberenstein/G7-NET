@@ -4,7 +4,7 @@ import { ContactSchema } from "@/lib/validations/ContactSchema"
 import { ContactForm } from "@/types"
 import { sendEmail } from "@/lib/nodemailer"
 
-export const sendEmailAction = async (formData: ContactForm, successMssg: string, errorMssg: string) => {
+export const sendEmailAction = async (formData: ContactForm) => {
   const validatedFields = ContactSchema.safeParse(formData)
 
   if (!validatedFields.success) {
@@ -20,9 +20,5 @@ export const sendEmailAction = async (formData: ContactForm, successMssg: string
     message,
   })
 
-  if (result.error) {
-    return { error: errorMssg }
-  }
-
-  return { success: successMssg }
+  return result
 }
