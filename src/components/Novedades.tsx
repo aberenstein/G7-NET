@@ -78,7 +78,7 @@ export function NewsSection() {
               <p className="text-black/80">{t("paragraph3")}</p>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
-              {["AI", "Cloud", "DevOps", "Mobile"].map((tag) => (
+              {["AI", "Cloud", "Mobile", "Telecom", "Innovation", "Latam"].map((tag) => (
                 <span
                   key={tag}
                   className="px-3 py-1 bg-[#48b4e8]/10 text-[#48b4e8] text-sm font-medium rounded-full"
