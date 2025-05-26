@@ -46,7 +46,7 @@ export function Contact() {
   }
   
   return (
-    <section id="contact" className="py-20 md:py-32">
+    <section id="contact" className="py-20 md:py-32 bg-gray-50 bg-[url('/hero-image.png')] bg-cover bg-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
