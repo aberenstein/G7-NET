@@ -10,7 +10,7 @@ export function NewsSection() {
   const t = useTranslations("news")
 
   return (
-    <section id="news" className="py-20 md:py-32">
+    <section id="news" className="py-20 md:py-32 bg-gray-50 bg-[url('/hero-image.png')] bg-cover bg-center">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

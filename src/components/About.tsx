@@ -142,7 +142,7 @@ export function About() {
                 {t("fourthMember.linkedin") && (
                   <Link
                     href={
-                      t("thirdMember.linkedin")
+                      t("fourthMember.linkedin")
                     }
                     aria-label="LinkedIn"
                   >
