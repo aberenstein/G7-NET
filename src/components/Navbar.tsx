@@ -63,7 +63,7 @@ export function Navbar({ scrolled }: { scrolled: boolean }) {
               {t("industries")}
             </Link>
             <Link
-              href="#novedades"
+              href="#news"
               className="text-sm font-medium text-black hover:text-[#48b4e8] transition-colors"
             >
               {t("novedades")}

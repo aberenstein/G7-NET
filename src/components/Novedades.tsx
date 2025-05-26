@@ -40,7 +40,7 @@ export function NewsSection() {
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#48b4e8]/10 rounded-lg z-0"></div>
             <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/novedades-image.png"
+                src="/viva_technology.jpg"
                 alt="Latest News"
                 width={800}
                 height={600}
@@ -76,6 +76,7 @@ export function NewsSection() {
             <div className="space-y-4 mb-8">
               <p className="text-black/80">{t("paragraph1")}</p>
               <p className="text-black/80">{t("paragraph2")}</p>
+              <p className="text-black/80">{t("paragraph3")}</p>
             </div>
             <div className="flex flex-wrap gap-4 mb-8">
               {["AI", "Cloud", "DevOps", "Mobile"].map((tag) => (
