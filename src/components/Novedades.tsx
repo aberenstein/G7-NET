@@ -88,9 +88,6 @@ export function NewsSection() {
                 </span>
               ))}
             </div>
-            <Button className="bg-[#48b4e8] hover:bg-[#48b4e8]/90 text-white">
-              {t("cta")} <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </motion.div>
         </div>
       </div>
