@@ -32,22 +32,22 @@
       "description": "Martín a occupé des postes de haute responsabilité en tant que Directeur et Vice-Président Régional pour le Cône Sud chez Ascend Communications, Lucent Technologies, UTStarcom et Arista Networks. Homme d’affaires et entrepreneur, il se consacre depuis huit ans au développement d’entreprises technologiques, ayant commencé en 2011 avec la fondation de la société Pontis Technologies, avec laquelle il a introduit les premières opérations de services IPTV et OTT pour les opérateurs de télécommunications."
     },
     "secondMember": {
-      "name": "GUILLERMO RIVABEN",
-      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
-      "description": "En tant que CEO du Groupe La Nación, Guillermo a dirigé la transformation numérique et culturelle d’une entreprise médiatique traditionnelle, rompant ainsi avec un paradigme établi. Avant cela, il a été Directeur Général de Telecom Personal, où il a stimulé sa croissance dans un marché bouleversé par les smartphones et l’internet mobile. Il a positionné l’entreprise comme leader du marché en termes de revenus et d’EBITDA. Auparavant, en tant que CMO, il a supervisé le développement du premier service 3G du pays. Il a joué un rôle clé dans le lancement de Telecom Personal en 1994. De 1999 à 2003, il a lancé les opérations d’AT&T en Amérique latine en tant que Vice-Président Régional du Marketing pour l’Argentine et le Brésil."
-    },
-    "thirdMember": {
       "name": "ABEL BERENSTEIN",
       "image": "/Web-Abel-Berenstein-1-720x960.jpeg",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Abel est une référence en innovation technologique, avec une solide expérience tant dans le secteur public que privé. Il a travaillé dans le domaine technologique de l’Administración Federal de Ingresos Públicos, où il a dirigé des initiatives clés de transformation numérique et de modernisation des processus. En tant que consultant, il a favorisé des alliances stratégiques en Amérique latine, en mettant en œuvre des solutions technologiques avec une vision régionale."
     },
-    "fourthMember": {
+    "thirdMember": {
       "name": "MANUEL CORREA CUENCA",
       "image": "/Web-Manuel-Correa-Cuenca-1-uai-720x960.png",
       "linkedin": "https://www.linkedin.com/in/manuel-correa-cuenca-a95840",
       "description": "Manuel possède plus de 20 ans d'expérience dans les secteurs de la technologie, des télécommunications et des médias, ayant occupé des postes de direction tels que CMO, CSO et Directeur Commercial dans les marchés B2B et B2C. Il a été CMO du Groupe Telecom, la plus grande entreprise de télécommunications d’Argentine, et a occupé des fonctions régionales chez AT&T et Neutrona Networks. Il a contribué à quatre startups—Telecom Paraguay, AT&T Latam, Zonacitas et Abbies—en pilotant des lancements, des sorties et la gestion du changement. Basé au Pérou, au Paraguay et en Argentine, il a également fondé trois entreprises, dont deux ont abouti à des sorties réussies. Actuellement, il est actif en tant que mentor, investisseur providentiel et actionnaire dans des fonds de capital-risque spécialisés en biotechnologie et fintech."
+    },
+    "fourthMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
+      "description": "En tant que CEO du Groupe La Nación, Guillermo a dirigé la transformation numérique et culturelle d’une entreprise médiatique traditionnelle, rompant ainsi avec un paradigme établi. Avant cela, il a été Directeur Général de Telecom Personal, où il a stimulé sa croissance dans un marché bouleversé par les smartphones et l’internet mobile. Il a positionné l’entreprise comme leader du marché en termes de revenus et d’EBITDA. Auparavant, en tant que CMO, il a supervisé le développement du premier service 3G du pays. Il a joué un rôle clé dans le lancement de Telecom Personal en 1994. De 1999 à 2003, il a lancé les opérations d’AT&T en Amérique latine en tant que Vice-Président Régional du Marketing pour l’Argentine et le Brésil."
     }
   },
   "services": {
@@ -106,13 +106,13 @@
       "description": "Nous mettons en place des infrastructures de cloud sécurisées, évolutives et efficaces pour vos applications.",
       "item1": "Cloud Computing",
       "item2": "Technologies d'énergie renouvelable",
-      "item3": "Réseaux LTE privés",
-      "item4": "Technologies intelligentes de villes"
+      "item3": "Surveillance et réduction de l’empreinte carbone grâce aux technologies numériques",
+      "item4": "Solutions technologiques pour la gestion environnementale et la conformité réglementaire"
     }
   },
   "industries": {
     "badge": "Secteurs que nous servons",
-    "title": "Des solutions spécialisées pour divers secteurs",
+    "title": "Des solutions spécialisées pour divers secteurs industriels",
     "description": "Nous avons de l'expérience avec des entreprises de différents secteurs, en adaptant nos solutions aux besoins spécifiques de chaque secteur.",
     "industry1": {
       "title": "Télécommunications et fournisseurs de services",

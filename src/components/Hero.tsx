@@ -9,7 +9,7 @@ export function Hero() {
   const t = useTranslations("hero")
   const router = useRouter()
   return (
-    <div className="h-screen relative w-full overflow-hidden bg-[url('/hero-image.png')] flex flex-col items-center justify-center rounded-lg">
+    <div className="h-screen relative w-full overflow-hidden bg-[url('/hero-image.jpg')] flex flex-col items-center justify-center rounded-lg">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 z-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

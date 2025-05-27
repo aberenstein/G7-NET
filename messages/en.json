@@ -32,22 +32,22 @@
       "description": "Martín held top executive positions as Director and Regional Vice President for the Southern Cone at Ascend Communications, Lucent Technologies, UTStarcom, and Arista Networks. A businessman and entrepreneur, he has been dedicated for the past 8 years to the development of technology companies, beginning in 2011 with the founding of Pontis Technologies, through which he introduced the first IPTV and OTT service operations for telecommunications operators."
     },
     "secondMember": {
-      "name": "GUILLERMO RIVABEN",
-      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
-      "description": "As CEO at La Nación Group Guillermo lead the digital and cultural transformation of a traditional media company breaking a paradigm shift. Prior to that, he was General Manager at Telecom Personal and fueled its growth in a market revolutionized by smartphones and mobile internet. He positioned it as a market leader in revenues and Ebidta. Before that as its CMO he managed the development of the first 3G service in the country. He was key in the startup of Telecom Personal back in 1994. From 1999 to 2003 he launched the AT&T operations in Latin America as a Regional Marketing VP for Argentina and Brazil."
-    },
-    "thirdMember": {
       "name": "ABEL BERENSTEIN",
       "image": "/Web-Abel-Berenstein-1-720x960.jpeg",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Abel is a recognized leader in technological innovation with a solid track record in both the public and private sectors. He worked in the technology division of the Administración Federal de Ingresos Públicos, where he led key initiatives in digital transformation and process modernization. As a consultant, he has promoted strategic alliances across Latin America, driving technology solutions with a regional vision."
     },
-    "fourthMember": {
+    "thirdMember": {
       "name": "MANUEL CORREA CUENCA",
       "image": "/Web-Manuel-Correa-Cuenca-1-uai-720x960.png",
       "linkedin": "https://www.linkedin.com/in/manuel-correa-cuenca-a95840",
       "description": "Manuel has 20+ years of experience in tech, telecom, and media, holding leadership roles like CMO, CSO, and Commercial Manager across B2B and B2C markets. He was CMO of Grupo Telecom, Argentina’s largest telecom firm, and held regional roles at AT&T and Neutrona Networks. He contributed to four startups—Telecom Paraguay, AT&T Latam, Zonacitas, and Abbies—driving launches, exits, and change management. Based in Peru, Paraguay, and Argentina, he also founded three companies, with two successful exits. Currently, he’s active as a mentor, angel investor, and shareholder in biotech and fintech VC funds."
+    },
+    "fourthMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
+      "description": "As CEO at La Nación Group Guillermo lead the digital and cultural transformation of a traditional media company breaking a paradigm shift. Prior to that, he was General Manager at Telecom Personal and fueled its growth in a market revolutionized by smartphones and mobile internet. He positioned it as a market leader in revenues and Ebidta. Before that as its CMO he managed the development of the first 3G service in the country. He was key in the startup of Telecom Personal back in 1994. From 1999 to 2003 he launched the AT&T operations in Latin America as a Regional Marketing VP for Argentina and Brazil."
     }
   },
   "services": {
@@ -106,13 +106,13 @@
       "description": "We implement secure, scalable, and efficient cloud infrastructures for your applications.",
       "item1": "Cloud Computing",
       "item2": "Renewable Energy Technologies",
-      "item3": "Private LTE Networks",
-      "item4": "Smart City Technologies"
+      "item3": "Monitoring and reduction of carbon footprint through digital technologies",
+      "item4": "Technological solutions for environmental management and regulatory compliance"
     }
   },
   "industries": {
     "badge": "Industries We Serve",
-    "title": "Specialized solutions for various sectors",
+    "title": "Specialized solutions for different industry sectors",
     "description": "We have experience working with companies from different industries, adapting our solutions to the specific needs of each sector.",
     "industry1": {
       "title": "Telecommunications & Service Providers",

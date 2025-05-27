@@ -33,22 +33,22 @@
       "description": "Martín ocupó posiciones de máxima responsabilidad como Director y Vicepresidente Regional para el Cono Sur en Ascend Communications, Lucent Technologies, UTStarcom y Arista Networks. Hombre de negocios y emprendedor, está dedicado hace 8 años al desarrollo de empresas de tecnología, comenzando en el año 2011 con la fundación de la compañía Pontis Technologies, con la cual introdujo las primeras operaciones de servicios IPTV y OTT para operadores de Telecomunicaciones."
     },
     "secondMember": {
-      "name": "GUILLERMO RIVABEN",
-      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
-      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
-      "description": "Como CEO del Grupo La Nación, Guillermo lideró la transformación digital y cultural de una empresa de medios tradicional, rompiendo con un paradigma establecido. Antes de eso, fue Gerente General de Telecom Personal, donde impulsó su crecimiento en un mercado revolucionado por los smartphones y el internet móvil. Posicionó a la empresa como líder del mercado en ingresos y EBITDA. Previamente, como CMO, gestionó el desarrollo del primer servicio 3G del país. Fue una figura clave en el lanzamiento de Telecom Personal en 1994. Entre 1999 y 2003, lanzó las operaciones de AT&T en América Latina como Vicepresidente Regional de Marketing para Argentina y Brasil."
-    },
-    "thirdMember": {
       "name": "ABEL BERENSTEIN",
       "image": "/Web-Abel-Berenstein-1-720x960.jpeg",
       "linkedin": "https://www.linkedin.com/in/martin-rivaben/",
       "description": "Abel es un referente en innovación tecnológica con una sólida trayectoria tanto en el sector público como en el privado. Se desempeñó en el área de tecnología de la Administración Federal de Ingresos Públicos, donde lideró iniciativas clave de transformación digital y modernización de procesos. Como consultor, ha promovido alianzas estratégicas en América Latina, articulando soluciones tecnológicas con visión regional."
     },
-    "fourthMember": {
+    "thirdMember": {
       "name": "MANUEL CORREA CUENCA",
       "image": "/Web-Manuel-Correa-Cuenca-1-uai-720x960.png",
       "linkedin": "https://www.linkedin.com/in/manuel-correa-cuenca-a95840",
       "description": "Manuel cuenta con más de 20 años de experiencia en tecnología, telecomunicaciones y medios, ocupando cargos de liderazgo como CMO, CSO y Gerente Comercial en mercados B2B y B2C. Fue CMO del Grupo Telecom, la empresa de telecomunicaciones más grande de Argentina, y desempeñó roles regionales en AT&T y Neutrona Networks. Contribuyó al desarrollo de cuatro startups—Telecom Paraguay, AT&T Latam, Zonacitas y Abbies—impulsando lanzamientos, ventas y gestión del cambio. Radicado en Perú, Paraguay y Argentina, también fundó tres empresas, de las cuales logró dos salidas exitosas. Actualmente, se desempeña como mentor, inversor ángel y accionista en fondos de capital de riesgo en biotecnología y fintech."
+    },
+    "fourthMember": {
+      "name": "GUILLERMO RIVABEN",
+      "image": "/Web-Guillermos-Rivaben-1-uai-720x960.jpg",
+      "linkedin": "https://www.linkedin.com/in/guillermo-rivaben-8a363021/",
+      "description": "Como CEO del Grupo La Nación, Guillermo lideró la transformación digital y cultural de una empresa de medios tradicional, rompiendo con un paradigma establecido. Antes de eso, fue Gerente General de Telecom Personal, donde impulsó su crecimiento en un mercado revolucionado por los smartphones y el internet móvil. Posicionó a la empresa como líder del mercado en ingresos y EBITDA. Previamente, como CMO, gestionó el desarrollo del primer servicio 3G del país. Fue una figura clave en el lanzamiento de Telecom Personal en 1994. Entre 1999 y 2003, lanzó las operaciones de AT&T en América Latina como Vicepresidente Regional de Marketing para Argentina y Brasil."
     }
   },
   "services": {
@@ -107,13 +107,13 @@
       "description": "Implementamos infraestructuras en la nube seguras, escalables y eficientes para tus aplicaciones.",
       "item1": "Computación en la nube y en el borde",
       "item2": "Tecnologías de energía renovable",
-      "item3": "Redes LTE privadas",
-      "item4": "Tecnologías de ciudades inteligentes"
+      "item3": "Monitoreo y reducción de la huella de carbono con tecnologías digitales",
+      "item4": "Soluciones tecnológicas para la gestión ambiental y el cumplimiento normativo"
     }
   },
   "industries": {
     "badge": "Industrias que Servimos",
-    "title": "Soluciones especializadas para diversos sectores",
+    "title": "Soluciones especializadas para diversos sectores industriales",
     "description": "Tenemos experiencia trabajando con empresas de diferentes industrias, adaptando nuestras soluciones a las necesidades específicas de cada sector.",
     "industry1": {
       "title": "Telecomunicaciones y proveedores de servicios",
