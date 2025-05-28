@@ -18,7 +18,7 @@ export function Industries() {
           <p className="text-black/80">{t("description")}</p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {[1, 2, 3, 4].map((index) => (
             <div
               key={index}
@@ -30,7 +30,7 @@ export function Industries() {
                 {index === 3 && <Atom className="h-8 w-8 text-[#48b4e8]" />}
                 {index === 4 && <Building2 className="h-8 w-8 text-[#48b4e8]" />}
               </div>
-              <h3 className="text-lg font-bold text-black mb-2">
+              <h3 className="text-lg font-bold text-black mb-2 break-words hyphens-auto">
                 {t(`industry${index}.title`)}
               </h3>
               <p className="text-sm text-black/70">

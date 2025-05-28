@@ -21,7 +21,7 @@ export function Technology() {
           </div>
 
           <Tabs defaultValue="web" className="w-full max-w-4xl mx-auto">
-            <TabsList className="w-full grid grid-cols-3 mb-8">
+            <TabsList className="w-full flex flex-col sm:grid sm:grid-cols-3 gap-2 sm:gap-0 mb-8 text-center">
               <TabsTrigger
                 value="web"
                 className="data-[state=active]:bg-[#48b4e8] data-[state=active]:text-white"
