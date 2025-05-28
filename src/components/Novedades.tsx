@@ -47,17 +47,17 @@ export function NewsSection() {
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                 <div className="flex flex-col justify-end h-full min-h-[160px]">
-                  <div className="flex items-center space-x-4 text-white mb-2">
-                    <div className="flex items-center text-sm">
+                  <div className="flex flex-wrap items-center space-x-4 text-white mb-2">
+                    <div className="flex items-center text-xs sm:text-sm">
                       <Calendar className="h-4 w-4 mr-1" />
                       <span>{t("date")}</span>
                     </div>
-                    <div className="flex items-center text-sm">
+                    <div className="flex items-center text-xs sm:text-sm">
                       <Tag className="h-4 w-4 mr-1" />
                       <span>{t("category")}</span>
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold text-white">
+                  <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white">
                     {t("highlight")}
                   </h3>
                 </div>
